@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrap {
+  height: 100%;
+}
+
 .text-medapri {
   color: #294076;
 }
@@ -38,21 +56,30 @@
   background-color: #fff !important;
 }
 
-.nav-link {
+.dropdown-item:active, .dropdown-item.active {
+  background-color: #fff;
+}
+
+.nav-link, .dropdown-toggle.nav-link {
   color: #595857;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover, .nav-link:focus, .dropdown-toggle.nav-link:hover, .dropdown-toggle.nav-link:focus {
   color: #FF8500;
 }
 
-.nav-pills {
+.nav-pills, .nav-pills .dropdown-toggle {
   --bs-nav-pills-border-radius: 999px;
 }
 
-.nav-pills .nav-link.active {
+.nav-pills .nav-link.active, .nav-pills .nav-link.active.dropdown-toggle {
   background-color: #FF8500;
-  padding: 4px 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #595857;
 }
 
 .card-point {

@@ -1,4 +1,12 @@
-@import 'base'
+@import "base";
+@import "components";
+
+*
+  margin: 0
+  padding: 0
+  list-style: none
+  box-sizing: border-box
+  font-family: "Noto Sans TC", sans-serif
 
 .text-medapri
   color: $medapri
@@ -30,16 +38,20 @@
 
 .bg-body-tertiary
   background-color: #fff !important
-
-.nav-link
+.dropdown-item:active, .dropdown-item.active
+  background-color: #fff
+.nav-link,.dropdown-toggle.nav-link
   color: $meda-bk-80
-.nav-link:hover, .nav-link:focus
+.nav-link:hover, .nav-link:focus, .dropdown-toggle.nav-link:hover, .dropdown-toggle.nav-link:focus
   color: $medasec
-.nav-pills
+.nav-pills,.nav-pills .dropdown-toggle
   --bs-nav-pills-border-radius: 999px
-.nav-pills .nav-link.active
+.nav-pills .nav-link.active,.nav-pills .nav-link.active.dropdown-toggle
   background-color: $medasec
-  padding: 4px 16px
+  color: #fff
+  font-weight: bold
+.dropdown-menu .dropdown-item
+  color: $meda-bk-80
 
 .card-point
   position: absolute

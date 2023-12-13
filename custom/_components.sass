@@ -1,0 +1,17 @@
+
+@mixin bg-center-cover
+    background-position: center center
+    background-size: cover
+    @content
+
+@mixin card($size)
+    padding-top: $size
+    overflow: hidden
+    width: 100%
+    @content
+    
+// 螢光筆效果
+@mixin markpen_y
+    background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 40%, #fff176 90%,transparent 95%)
+    padding: 2px 1px
+    @content
