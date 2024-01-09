@@ -18,6 +18,16 @@ p {
   color: #294076;
 }
 
+.logo {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  height: 40px;
+  width: 290px;
+  background-image: url("http://medalliance.com.tw/images/medalliance.svg");
+}
+
 .btn-primary, .btn-primary:hover {
   background-color: #294076;
 }

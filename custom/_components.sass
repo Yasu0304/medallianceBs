@@ -9,6 +9,16 @@
     overflow: hidden
     @content
 
+@mixin hide-text($hight, $width) 
+  text-indent: 101%
+  overflow: hidden
+  white-space: nowrap
+  display: block
+  height: $hight
+  width: $width
+  @content
+
+
 @mixin card($size)
     padding-top: $size
     overflow: hidden
