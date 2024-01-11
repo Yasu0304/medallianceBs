@@ -219,4 +219,10 @@ p {
   margin-bottom: 12px;
   width: 70%;
   margin: 0 auto;
+}
+
+.indexCard {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
 }/*# sourceMappingURL=all.css.map */
