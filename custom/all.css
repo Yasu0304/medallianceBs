@@ -1,3 +1,53 @@
+html {
+  scroll-padding-top: 66px;
+}
+
+p {
+  color: #595857;
+}
+
+.p-color-40 {
+  color: #9F9E9F;
+}
+
+.p-color-bk80, .h-color-bk80, .text-color_bk80 {
+  color: #595857;
+}
+
+.h-color-pri {
+  color: #294076;
+}
+
+.logo {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  height: 40px;
+  width: 290px;
+  background-image: url("http://medalliance.com.tw/images/medalliance.svg");
+}
+
+.btn-primary, .btn-primary:hover {
+  background-color: #294076;
+}
+
+.btn-secondary, .btn-secondary:hover {
+  background-color: #FF8500;
+  border-color: #FF8500;
+}
+
+.btn-outline-primary {
+  color: #294076;
+  border-color: rgba(115, 128, 158, 0.4823529412);
+}
+
+.btn-outline-primary:hover {
+  background-color: #FF8500;
+  border-color: #FF8500;
+  color: #fff;
+}
+
 .text-medapri {
   color: #294076;
 }
@@ -34,25 +84,30 @@
   font-weight: bold;
 }
 
-.bg-body-tertiary {
-  background-color: #fff !important;
+.dropdown-item:active, .dropdown-item.active {
+  background-color: #fff;
 }
 
-.nav-link {
+.nav-link, .dropdown-toggle.nav-link {
   color: #595857;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover, .nav-link:focus, .dropdown-toggle.nav-link:hover, .dropdown-toggle.nav-link:focus {
   color: #FF8500;
 }
 
-.nav-pills {
+.nav-pills, .nav-pills .dropdown-toggle {
   --bs-nav-pills-border-radius: 999px;
 }
 
-.nav-pills .nav-link.active {
+.nav-pills .nav-link.active, .nav-pills .nav-link.active.dropdown-toggle {
   background-color: #FF8500;
-  padding: 4px 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #595857;
 }
 
 .card-point {
@@ -146,4 +201,28 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.textIndent {
+  text-indent: -1rem;
+}
+
+.textIndent .bi {
+  text-indent: 0rem;
+}
+
+.hrStyle-common {
+  border: 0;
+  height: 1px;
+  background: #ffffff;
+  background-image: linear-gradient(to right, #ffffff #ffffff, #ffffff);
+  margin-bottom: 12px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.indexCard {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
 }/*# sourceMappingURL=all.css.map */

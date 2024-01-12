@@ -1,0 +1,20 @@
+@import 'base'
+@import 'components'
+
+.text-style_pills-bk40
+    @include text-color($meda-bk-40,$meda-bk-00)
+    border-radius: 999px
+
+.text-style_pills-edasec
+    @include text-color($medasec,$meda-bk-00)
+    border-radius: 999px
+
+.telePage
+    .nav-tabs
+        --bs-nav-tabs-border-color: #fff
+        --bs-nav-tabs-link-active-bg: #FF8500
+        --bs-nav-tabs-link-active-color: #fff
+        .nav-link
+            color: $medasec
+        .nav-link.active
+            color: $meda-bk-00
