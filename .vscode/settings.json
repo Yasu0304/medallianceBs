@@ -33,4 +33,5 @@
     "python.formatting.provider": "yapf", // or "black" here
     "python.linting.pylintEnabled": true,
     "powermode.shake.enabled": false,
+    "liveServer.settings.port": 5501,
 }
