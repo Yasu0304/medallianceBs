@@ -1,5 +1,6 @@
 @import 'base'
 @import 'components'
+@import 'media'
 
 html
   scroll-padding-top: 66px //header 高度
@@ -46,6 +47,10 @@ p
   font-size: 16px
   padding: 8px
   border: 0
+
+.navbarImg
+    @include lg
+      width:250px
 
 .offcanvas.offcanvas-end
   max-width: 60%

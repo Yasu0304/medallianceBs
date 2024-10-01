@@ -69,6 +69,12 @@ p {
   border: 0;
 }
 
+@media (min-width: 992px) {
+  .navbarImg {
+    width: 250px;
+  }
+}
+
 .offcanvas.offcanvas-end {
   max-width: 60%;
 }
