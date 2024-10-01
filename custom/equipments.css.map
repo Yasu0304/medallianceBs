@@ -1,1 +1,1 @@
-{"version":3,"sources":["equipments.sass","_components.sass","equipments.css"],"names":[],"mappings":"AAGA;ECSI,iBDRc;ECSd,gBAAA;EACA,WAAA;EATA,kCAAA;EACA,wBAAA;EACA,4BAAA;EACA,gBAAA;ACAJ","file":"equipments.css"}
+{"version":3,"sources":["equipments.sass","_components.scss","equipments.css"],"names":[],"mappings":"AAGA;ECYE,iBDXgB;ECYhB,gBAAA;EACA,WAAA;EAVA,kCAAA;EACA,wBAAA;EACA,4BAAA;EACA,gBAAA;ACFF","file":"equipments.css"}
