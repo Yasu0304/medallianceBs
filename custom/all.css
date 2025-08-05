@@ -3,24 +3,6 @@ html {
 }
 
 p {
-  color: #595857;
-}
-
-.p-color-bk0 {
-  color: #fff;
-}
-
-.p-color-40 {
-  color: #9f9e9f;
-}
-
-.p-color-bk80,
-.h-color-bk80,
-.text-color_bk80 {
-  color: #595857;
-}
-
-.h-color-pri {
   color: #294076;
 }
 
@@ -31,8 +13,8 @@ p {
 
 .btn-secondary:hover,
 .btn-secondary:hover {
-  background-color: #ff8500;
-  border-color: #ff8500;
+  background-color: #72b2b9;
+  border-color: #72b2b9;
 }
 
 .btn-outline-primary {
@@ -41,8 +23,8 @@ p {
 }
 
 .btn-outline-primary:hover {
-  background-color: #ff8500;
-  border-color: #ff8500;
+  background-color: #72b2b9;
+  border-color: #72b2b9;
   color: #fff;
 }
 
@@ -50,20 +32,16 @@ p {
   color: #294076;
 }
 
-.text-meda-bk-80 {
-  color: #595857;
-}
-
 .system-link {
   background-color: #294076;
   transition: 0.6s;
 }
 .system-link:focus {
-  background-color: #ff8500;
+  background-color: #72b2b9;
   transition: 0.6s;
 }
 .system-link:hover {
-  background-color: #ff8500;
+  background-color: #72b2b9;
   transition: 0.6s;
 }
 
@@ -84,7 +62,7 @@ p {
 }
 
 .offcanvas .navbar-nav .nav-link.active {
-  color: #ff8500;
+  color: #72b2b9;
   font-weight: bold;
 }
 
@@ -96,17 +74,12 @@ p {
   background-color: #fff;
 }
 
-.nav-link,
-.dropdown-toggle.nav-link {
-  color: #595857;
-}
-
 .nav-link:hover, .nav-link:focus {
-  color: #ff8500;
+  color: #72b2b9;
 }
 
 .dropdown-toggle.nav-link:hover, .dropdown-toggle.nav-link:focus {
-  color: #ff8500;
+  color: #72b2b9;
 }
 
 .nav-pills,
@@ -116,13 +89,9 @@ p {
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-link.active.dropdown-toggle {
-  background-color: #ff8500;
+  background-color: #72b2b9;
   color: #fff;
   font-weight: bold;
-}
-
-.dropdown-menu .dropdown-item {
-  color: #595857;
 }
 
 .card-point {

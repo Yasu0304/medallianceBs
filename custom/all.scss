@@ -7,26 +7,26 @@ html {
 }
 
 p {
-  color: $meda-bk-80;
-}
-
-.p-color-bk0 {
-  color: $meda-bk-00;
-}
-
-.p-color-40 {
-  color: $meda-bk-40;
-}
-
-.p-color-bk80,
-.h-color-bk80,
-.text-color_bk80 {
-  color: $meda-bk-80;
-}
-
-.h-color-pri {
   color: $medapri;
 }
+
+// .p-color-bk0 {
+//   color: $meda-bk-00;
+// }
+
+// .p-color-40 {
+//   color: $meda-bk-40;
+// }
+
+// .p-color-bk80,
+// .h-color-bk80,
+// .text-color_bk80 {
+//   color: $meda-bk-80;
+// }
+
+// .h-color-pri {
+//   color: $medapri;
+// }
 
 .btn-primary,
 .btn-primary {
@@ -60,9 +60,9 @@ p {
   color: $medapri;
 }
 
-.text-meda-bk-80 {
-  color: $meda-bk-80;
-}
+// .text-meda-bk-80 {
+//   color: $meda-bk-80;
+// }
 
 .system-link {
   background-color: $medapri;
@@ -111,10 +111,10 @@ p {
   background-color: #fff;
 }
 
-.nav-link,
-.dropdown-toggle.nav-link {
-  color: $meda-bk-80;
-}
+// .nav-link,
+// .dropdown-toggle.nav-link {
+//   color: $meda-bk-80;
+// }
 
 .nav-link {
   &:hover,
@@ -142,9 +142,9 @@ p {
   font-weight: bold;
 }
 
-.dropdown-menu .dropdown-item {
-  color: $meda-bk-80;
-}
+// .dropdown-menu .dropdown-item {
+//   color: $meda-bk-80;
+// }
 
 .card-point {
   position: absolute;
