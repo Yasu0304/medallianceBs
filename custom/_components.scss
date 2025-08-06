@@ -4,11 +4,18 @@
   @content;
 }
 
-@mixin bg-center-contain {
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+@mixin bg-setting($position1, $position2, $size, $repeat, $attachmant) {
+  background-position: $position1 $position2;
+  background-size: $size;
+  background-repeat: $repeat;
+  background-attachment: $attachmant;
   overflow: hidden;
+  @content;
+}
+
+@mixin imgWidth($width) {
+  max-width: $width;
+  height: auto;
   @content;
 }
 
@@ -17,6 +24,17 @@
   overflow: hidden;
   width: 100%;
   @content;
+}
+
+// callout
+@mixin callout($color1, $color2) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.6rem;
+  margin-bottom: 0.5rem;
+  color: $color1;
+  background-color: $meda-bk-00;
+  border-left: 0.4rem solid $color2;
 }
 
 // 螢光筆
@@ -46,4 +64,50 @@
   background-color: $color1;
   color: $color2;
   @content;
+}
+
+//段落前後加三角形
+@mixin polygonTriangleBefore($height, $width, $color) {
+  &::before {
+    content: "";
+    display: block;
+    height: $height;
+    width: $width;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    background: $color;
+  }
+}
+
+@mixin polygonTriangleAfter($height, $width, $color) {
+  &::after {
+    content: "";
+    display: block;
+    height: $height;
+    width: $width;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background: $color;
+  }
+}
+
+//段落前後加逆三角形
+@mixin polygonTriangleBefore_reflection($height, $width, $color) {
+  &::after {
+    content: "";
+    display: block;
+    height: $height;
+    width: $width;
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    background: $color;
+  }
+}
+
+@mixin polygonTriangleAfter_reflection($height, $width, $color) {
+  &::before {
+    content: "";
+    display: block;
+    height: $height;
+    width: $width;
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background: $color;
+  }
 }
