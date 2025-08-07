@@ -1,0 +1,75 @@
+@import "base";
+@import "media";
+@import "components";
+
+.viedoLocation {
+  @include card(56.25%);
+  position: relative;
+}
+
+.squareCard {
+  @include card(100%);
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardContent {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+}
+
+.contenctSection {
+  flex-direction: column;
+  margin-right: 0%;
+
+  & > :first-child {
+    margin-right: 0%;
+
+    @include sm {
+      margin-right: -10%;
+    }
+  }
+
+  &:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    @include sm {
+      flex-direction: row;
+    }
+  }
+
+  @include sm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contentImg {
+    width: 100%;
+    overflow: hidden;
+
+    @include sm {
+      width: 50%;
+      flex-shrink: 0;
+    }
+  }
+
+  .contentArticle {
+    width: 100%;
+    background-color: #ffffffac;
+    padding: 0.5rem;
+    position: relative;
+    z-index: 2;
+
+    @include sm {
+      width: 60%;
+      flex-shrink: 0;
+    }
+  }
+}

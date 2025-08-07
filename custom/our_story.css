@@ -1,0 +1,76 @@
+.viedoLocation {
+  padding-top: 56.25%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.squareCard {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardContent {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+}
+
+.contenctSection {
+  flex-direction: column;
+  margin-right: 0%;
+}
+.contenctSection > :first-child {
+  margin-right: 0%;
+}
+@media (min-width: 576px) {
+  .contenctSection > :first-child {
+    margin-right: -10%;
+  }
+}
+.contenctSection:nth-child(even) {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  .contenctSection:nth-child(even) {
+    flex-direction: row;
+  }
+}
+@media (min-width: 576px) {
+  .contenctSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.contenctSection .contentImg {
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .contenctSection .contentImg {
+    width: 50%;
+    flex-shrink: 0;
+  }
+}
+.contenctSection .contentArticle {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6745098039);
+  padding: 0.5rem;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 576px) {
+  .contenctSection .contentArticle {
+    width: 60%;
+    flex-shrink: 0;
+  }
+}/*# sourceMappingURL=our_story.css.map */
