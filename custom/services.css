@@ -1,1 +1,9 @@
-/*# sourceMappingURL=services.css.map */
+.heroPic {
+  min-height: 250px;
+  background-image: url(../images/AdobeStock_526623667.jpeg);
+  background-position: 40% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}/*# sourceMappingURL=services.css.map */
