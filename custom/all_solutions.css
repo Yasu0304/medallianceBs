@@ -1,0 +1,344 @@
+.heroPic {
+  min-height: 250px;
+  background-position: 40% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.imgWidth {
+  max-width: 90%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .imgWidth {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.imgFloatRwd {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .imgFloatRwd {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    height: auto;
+  }
+}
+.dotContainer-4 {
+  width: 100%;
+}
+
+.dotContainer-4 .dotContainer {
+  width: 50%;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer {
+    width: 25%;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(1) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(1) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(2) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(2) {
+    padding: 5% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(3) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(3) {
+    padding: 5% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(4) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(4) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 {
+  width: 100%;
+}
+
+.dotContainer-5 .dotContainer {
+  width: 50%;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer {
+    width: 20%;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(1) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(1) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(2) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(2) {
+    padding: 8% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(3) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(3) {
+    padding: 0% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(4) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(4) {
+    padding: 8% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(5) {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(5) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dot {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(41, 64, 118, 0.7725490196);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.dot p {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 391px) {
+  .dot p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .dot p {
+    font-size: 1.25rem;
+  }
+}
+.dotContainer-smartWard_bg {
+  background-image: url(../images/smart_ward_and_mobile_nursing/point.webp);
+  background-position: -224% 100%;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-smartWard_bg {
+    background-position: 50% 100%;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+.contacts-smartWard_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url(../images/smart_ward_and_mobile_nursing/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.dotContainer-smartOperation_bg {
+  background-image: url(../images/smart_operation_room/point.webp);
+  background-position: 50% 112%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-smartOperation_bg {
+    background-position: 50% 100%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+.contacts-smartOperation_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url(../images/smart_operation_room/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.dotContainer-telehealth_bg {
+  background-position: 50% 120%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  background-image: url(../images/telehealth_and_remote_care/point.webp);
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-telehealth_bg {
+    background-position: 50% -95%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+.contacts-telehealth_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url(../images/telehealth_and_remote_care/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.dotContainer-smartDiagnostic_bg {
+  background-position: 100% 120%;
+  background-size: 112%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  background-image: url(../images/smart_diagnostic_and_imaging/point.webp);
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-smartDiagnostic_bg {
+    background-position: 50% 150%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+.contacts-smartDiagnostic_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url(../images/smart_diagnostic_and_imaging/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.dotContainer-intelligentMonitoring_bg {
+  background-position: center 360%;
+  background-size: 162%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  background-image: url(../images/intelligent_monitoring/point.webp);
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-intelligentMonitoring_bg {
+    background-position: center -50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+.contacts-intelligentMonitoring_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url(../images/solutions/intelligent_monitoring/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+.dotContainer-medicalSupplies_bg {
+  background-position: center 100%;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  background-image: url(../images/medical_supplies_and_equipment/point.webp);
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-medicalSupplies_bg {
+    background-position: center 110%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+.contacts-medicalSupplies_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url(../images/medical_supplies_and_equipment/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}/*# sourceMappingURL=all_solutions.css.map */

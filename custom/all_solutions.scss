@@ -1,0 +1,267 @@
+@import "base";
+@import "components";
+@import "media";
+
+// .solutionHover:hover {
+//   transition: 0.7s;
+// }
+// @media (min-width: 576px) {
+//   .solutionHover {
+//     background-position: center center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     overflow: hidden;
+//     min-height: 20vh;
+//   }
+// }
+.heroPic {
+  min-height: 250px;
+  @include bg-setting(40%, center, cover, no-repeat, scroll);
+}
+
+.imgWidth {
+  max-width: 90%;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .imgWidth {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.imgFloatRwd {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .imgFloatRwd {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    height: auto;
+  }
+}
+
+.dotContainer-4 {
+  width: 100%;
+}
+.dotContainer-4 .dotContainer {
+  width: 50%;
+}
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer {
+    width: 25%;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(1) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(1) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(2) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(2) {
+    padding: 5% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(3) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(3) {
+    padding: 5% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-4 .dotContainer:nth-child(4) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer:nth-child(4) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+
+.dotContainer-5 {
+  width: 100%;
+}
+.dotContainer-5 .dotContainer {
+  width: 50%;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer {
+    width: 20%;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(1) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(1) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(2) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(2) {
+    padding: 8% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(3) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(3) {
+    padding: 0% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(4) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(4) {
+    padding: 8% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(5) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(5) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+
+.dot {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-color: $medapriOutlinebtn;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.dot p {
+  font-size: 0.8rem;
+}
+@media (min-width: 391px) {
+  .dot p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .dot p {
+    font-size: 1.25rem;
+  }
+}
+
+// smartWardPage
+.dotContainer-smartWard_bg {
+  background-image: url(../images/smart_ward_and_mobile_nursing/point.webp);
+  @include bg-setting(-224%, 100%, 110%, no-repeat, scroll);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, 100%, 55%, no-repeat, scroll);
+  }
+}
+
+.contacts-smartWard_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(../images/smart_ward_and_mobile_nursing/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// smartOperationPage
+.dotContainer-smartOperation_bg {
+  background-image: url(../images/smart_operation_room/point.webp);
+  @include bg-setting(50%, 112%, 100%, no-repeat, scroll);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, 100%, 60%, no-repeat, scroll);
+  }
+}
+
+.contacts-smartOperation_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(../images/smart_operation_room/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// telehealthPage
+.dotContainer-telehealth_bg {
+  @include bg-setting(50%, 120%, 80%, no-repeat, scroll);
+  background-image: url(../images/telehealth_and_remote_care/point.webp);
+  // margin-bottom: 5rem;
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, -95%, 60%, no-repeat, scroll);
+  }
+}
+
+.contacts-telehealth_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(../images/telehealth_and_remote_care/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// smartDiagnosticPage
+.dotContainer-smartDiagnostic_bg {
+  @include bg-setting(100%, 120%, 112%, no-repeat, scroll);
+  background-image: url(../images/smart_diagnostic_and_imaging/point.webp);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, 150%, 70%, no-repeat, scroll);
+  }
+}
+
+.contacts-smartDiagnostic_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(../images/smart_diagnostic_and_imaging/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// intelligentMonitoringPage
+.dotContainer-intelligentMonitoring_bg {
+  @include bg-setting(center, 360%, 162%, no-repeat, scroll);
+  background-image: url(../images/intelligent_monitoring/point.webp);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(center, -50%, 80%, no-repeat, scroll);
+  }
+}
+
+.contacts-intelligentMonitoring_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(../images/solutions/intelligent_monitoring/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// medicalSuppliesPage
+.dotContainer-medicalSupplies_bg {
+  @include bg-setting(center, 100%, 160%, no-repeat, scroll);
+  background-image: url(../images/medical_supplies_and_equipment/point.webp);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(center, 110%, 80%, no-repeat, scroll);
+  }
+}
+
+.contacts-medicalSupplies_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(../images/medical_supplies_and_equipment/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}

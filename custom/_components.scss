@@ -1,9 +1,3 @@
-@mixin bg-center-cover {
-  background-position: center center;
-  background-size: cover;
-  @content;
-}
-
 @mixin bg-setting($position1, $position2, $size, $repeat, $attachmant) {
   background-position: $position1 $position2;
   background-size: $size;
