@@ -1,0 +1,56 @@
+@import "base";
+@import "media";
+@import "components";
+
+.productsPt {
+  overflow: hidden;
+  padding-top: 93px;
+
+  @include sm {
+    padding-top: 119px;
+  }
+
+  @include md {
+    padding-top: 109px;
+  }
+}
+
+.productsTab {
+  z-index: 2;
+  height: 142px;
+  position: sticky;
+  top: -30px;
+
+  @include sm {
+    top: 0px;
+  }
+
+  li {
+    button {
+      font-size: 1rem;
+
+      @include sm {
+        font-size: calc(1.275rem + 0.3vw);
+      }
+    }
+  }
+}
+
+.h1Title {
+  @include pageH1(2.3rem, 700, $hmspri, 1);
+
+  @include sm {
+    @include pageH1(4.5rem, 700, $hmsalr, 1.2);
+  }
+}
+
+.callout-priamry {
+  @include callout($hmspri, $hmspri);
+}
+
+.productsCard {
+  transition: 0.5s;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  }
+}
