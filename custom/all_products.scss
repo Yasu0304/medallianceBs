@@ -11,24 +11,24 @@
   @include bg-setting(center, center, cover, no-repeat, scroll);
 }
 
-.productsPt {
-  overflow: hidden;
-  padding-top: 93px;
+// .productsPt {
+//   overflow: hidden;
+//   padding-top: 93px;
 
-  @include sm {
-    padding-top: 119px;
-  }
+//   @include sm {
+//     padding-top: 119px;
+//   }
 
-  @include md {
-    padding-top: 109px;
-  }
-}
+//   @include md {
+//     padding-top: 109px;
+//   }
+// }
 
 .productsTab {
   z-index: 2;
-  height: 142px;
+  height: 112px;
   position: sticky;
-  top: -30px;
+  top: 0px;
 
   @include sm {
     top: 0px;

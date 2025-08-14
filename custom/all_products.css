@@ -7,26 +7,11 @@
   overflow: hidden;
 }
 
-.productsPt {
-  overflow: hidden;
-  padding-top: 93px;
-}
-@media (min-width: 576px) {
-  .productsPt {
-    padding-top: 119px;
-  }
-}
-@media (min-width: 768px) {
-  .productsPt {
-    padding-top: 109px;
-  }
-}
-
 .productsTab {
   z-index: 2;
-  height: 142px;
+  height: 112px;
   position: sticky;
-  top: -30px;
+  top: 0px;
 }
 @media (min-width: 576px) {
   .productsTab {
