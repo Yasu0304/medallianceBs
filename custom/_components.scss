@@ -21,14 +21,14 @@
 }
 
 // callout
-@mixin callout($color1, $color2) {
+@mixin callout($color1, $color2, $color3) {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.6rem;
   margin-bottom: 0.5rem;
   color: $color1;
-  background-color: $meda-bk-00;
-  border-left: 0.4rem solid $color2;
+  background-color: $color2;
+  border-left: 0.4rem solid $color3;
 }
 
 // 螢光筆

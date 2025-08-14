@@ -2,6 +2,15 @@
 @import "media";
 @import "components";
 
+// html {
+//   scroll-padding-top: 200px; //header 高度
+// }
+
+.heroPic {
+  min-height: 250px;
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+}
+
 .productsPt {
   overflow: hidden;
   padding-top: 93px;
@@ -36,19 +45,12 @@
   }
 }
 
-.h1Title {
-  @include pageH1(2.3rem, 700, $hmspri, 1);
-
-  @include sm {
-    @include pageH1(4.5rem, 700, $hmsalr, 1.2);
-  }
-}
-
-.callout-priamry {
-  @include callout($hmspri, $hmspri);
+.calloutPriamry70 {
+  @include callout($medasec, #ffffff00, $medasec);
 }
 
 .productsCard {
+  background-color: $medaInf;
   transition: 0.5s;
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
