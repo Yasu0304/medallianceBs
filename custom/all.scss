@@ -35,33 +35,43 @@ p,
     width: auto;
   }
 }
-.navbar-nav {
-  .nav-item {
-    &:active,
-    :hover {
-      background-color: $medasec;
+
+.dropdown-menu {
+  .dropdown-item {
+    color: $meda-bk-40;
+    &:hover,
+    :active {
+      background-color: $meda-bk-00;
+      color: $medasec;
+    }
+  }
+
+  .dropdown-item {
+    .bi {
+      margin-right: -1rem;
+      color: transparent;
+      transition: 0.5s;
+    }
+    &:hover,
+    :active {
+      .bi {
+        margin-right: 0rem;
+        color: $medasec;
+      }
+    }
+  }
+  .dropdown-item.dropdown-item_none {
+    &:hover,
+    :active {
+      background-color: $meda-bk-00;
+      color: $meda-bk-40;
     }
   }
 }
 
-// .dropdown-menu {
-//   .dropdown-item {
-//     color: $meda-bk-60;
-//     &:active,
-//     :hover {
-//       background-color: $meda-bk-00;
-//       color: $medasec;
-//       font-weight: bold;
-//     }
-//   }
-// }
-
-.dropdown-hover {
-  color: $meda-bk-60;
+.nav-item {
   &:active,
   :hover {
-    background-color: $meda-bk-00;
-    color: $medasec;
-    font-weight: bold;
+    background-color: $medasec;
   }
 }
