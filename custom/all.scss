@@ -1,6 +1,6 @@
-@use "./base";
-@use "./components";
-@use "./media";
+@use "base" as *;
+@use "components" as *;
+@use "media" as *;
 
 // html {
 //   scroll-padding-top: 66px; //header 高度
@@ -24,7 +24,7 @@ p,
 }
 // 導航列
 .p_navLink {
-  color: $medapriOutlinebtn;
+  color: #447f98;
 }
 
 .navbarImg {
@@ -35,25 +35,33 @@ p,
     width: auto;
   }
 }
-.navbar {
-  .navbar-nav {
-    .nav-item {
-      &:active,
-      :hover {
-        background-color: $medasec;
-      }
-
-      .dropdown-menu {
-        .dropdown-item {
-          color: $meda-bk-60;
-          &:active,
-          :hover {
-            background-color: $meda-bk-00;
-            color: $medasec;
-            font-weight: bold;
-          }
-        }
-      }
+.navbar-nav {
+  .nav-item {
+    &:active,
+    :hover {
+      background-color: $medasec;
     }
+  }
+}
+
+// .dropdown-menu {
+//   .dropdown-item {
+//     color: $meda-bk-60;
+//     &:active,
+//     :hover {
+//       background-color: $meda-bk-00;
+//       color: $medasec;
+//       font-weight: bold;
+//     }
+//   }
+// }
+
+.dropdown-hover {
+  color: $meda-bk-60;
+  &:active,
+  :hover {
+    background-color: $meda-bk-00;
+    color: $medasec;
+    font-weight: bold;
   }
 }

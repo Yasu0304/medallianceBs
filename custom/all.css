@@ -1,0 +1,45 @@
+p,
+.list-group-item {
+  color: #6c757d;
+}
+
+.fs-4 {
+  color: rgba(41, 64, 118, 0.7098039216);
+}
+
+.cardAni {
+  transition: 0.5s;
+}
+.cardAni:hover {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.p_navLink {
+  color: #447f98;
+}
+
+.navbarImg {
+  height: 28px;
+  width: auto;
+}
+@media (min-width: 576px) {
+  .navbarImg {
+    height: 40px;
+    width: auto;
+  }
+}
+
+.navbar-nav .nav-item:active,
+.navbar-nav .nav-item :hover {
+  background-color: #447f98;
+}
+
+.dropdown-hover {
+  color: #6c757d;
+}
+.dropdown-hover:active,
+.dropdown-hover :hover {
+  background-color: #fff;
+  color: #447f98;
+  font-weight: bold;
+}/*# sourceMappingURL=all.css.map */
