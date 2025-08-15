@@ -1,6 +1,6 @@
-@import "base";
-@import "components";
-@import "media";
+@use "./base";
+@use "./components";
+@use "./media";
 
 // html {
 //   scroll-padding-top: 66px; //header 高度
@@ -35,7 +35,6 @@ p,
     width: auto;
   }
 }
-
 .navbar {
   .navbar-nav {
     .nav-item {
@@ -46,7 +45,13 @@ p,
 
       .dropdown-menu {
         .dropdown-item {
-          color: $medapri-70;
+          color: $meda-bk-60;
+          &:active,
+          :hover {
+            background-color: $meda-bk-00;
+            color: $medasec;
+            font-weight: bold;
+          }
         }
       }
     }
