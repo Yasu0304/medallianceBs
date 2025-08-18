@@ -38,7 +38,6 @@
 }
 
 .productsCard {
-  background-color: #eff4ff;
   transition: 0.5s;
 }
 .productsCard:hover {
