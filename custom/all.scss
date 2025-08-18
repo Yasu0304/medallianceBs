@@ -24,7 +24,7 @@ p,
 }
 // 導航列
 .p_navLink {
-  color: #447f98;
+  color: $medasec;
 }
 
 .navbarImg {
@@ -46,20 +46,21 @@ p,
     }
   }
 
-  .dropdown-item {
-    .bi {
-      margin-right: -1rem;
-      color: transparent;
-      transition: 0.5s;
-    }
-    &:hover,
-    :active {
-      .bi {
-        margin-right: 0rem;
-        color: $medasec;
-      }
-    }
-  }
+  // .dropdown-item {
+  //   .bi {
+  //     margin-right: -1rem;
+  //     color: transparent;
+  //     transition: 0.5s;
+  //   }
+  //   &:hover,
+  //   :active {
+  //     .bi {
+  //       margin-right: 0rem;
+  //       color: $medasec;
+  //     }
+  //   }
+  // }
+
   .dropdown-item.dropdown-item_none {
     &:hover,
     :active {

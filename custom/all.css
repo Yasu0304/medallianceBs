@@ -15,7 +15,7 @@ p,
 }
 
 .p_navLink {
-  color: #447f98;
+  color: #00b0c1;
 }
 
 .navbarImg {
@@ -35,17 +35,7 @@ p,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item :active {
   background-color: #fff;
-  color: #447f98;
-}
-.dropdown-menu .dropdown-item .bi {
-  margin-right: -1rem;
-  color: transparent;
-  transition: 0.5s;
-}
-.dropdown-menu .dropdown-item:hover .bi,
-.dropdown-menu .dropdown-item :active .bi {
-  margin-right: 0rem;
-  color: #447f98;
+  color: #00b0c1;
 }
 .dropdown-menu .dropdown-item.dropdown-item_none:hover,
 .dropdown-menu .dropdown-item.dropdown-item_none :active {
@@ -55,5 +45,5 @@ p,
 
 .nav-item:active,
 .nav-item :hover {
-  background-color: #447f98;
+  background-color: #00b0c1;
 }/*# sourceMappingURL=all.css.map */
