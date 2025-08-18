@@ -38,7 +38,8 @@ p,
 
 .dropdown-menu {
   .dropdown-item {
-    color: $meda-bk-40;
+    color: $meda-bk-60;
+    font-weight: 300;
     &:hover,
     :active {
       background-color: $meda-bk-00;
@@ -74,5 +75,13 @@ p,
   &:active,
   :hover {
     background-color: $medasec;
+  }
+}
+
+.nav-item.nav-item_none {
+  &:active,
+  :hover {
+    background-color: $medapri;
+    color: $meda-bk-00;
   }
 }

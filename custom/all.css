@@ -30,7 +30,8 @@ p,
 }
 
 .dropdown-menu .dropdown-item {
-  color: #9f9e9f;
+  color: #6c757d;
+  font-weight: 300;
 }
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item :active {
@@ -46,4 +47,10 @@ p,
 .nav-item:active,
 .nav-item :hover {
   background-color: #00b0c1;
+}
+
+.nav-item.nav-item_none:active,
+.nav-item.nav-item_none :hover {
+  background-color: #294076;
+  color: #fff;
 }/*# sourceMappingURL=all.css.map */
