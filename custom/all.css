@@ -7,6 +7,10 @@ p,
   color: rgba(41, 64, 118, 0.7098039216);
 }
 
+.p_gray600 {
+  color: #6c757d;
+}
+
 .cardAni {
   transition: 0.5s;
 }
