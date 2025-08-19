@@ -44,7 +44,7 @@
           </button>
 
           <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
               <li class="nav-item py-0 dropdown">
                 <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
                 <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdown">
@@ -154,9 +154,9 @@
                 </ul>
               </li>
               <li class="nav-item py-0 nav-item_none">
-                <div class="d-flex flex-row text-white p-3">
-                  <label for="selectLanguage" class="form-label">Select Language</label>
-                  <select class="form-select mx-1" aria-label="Select language">
+                <div class="d-flex flex-row text-white py-0 px-3 align-items-center">
+                  <label for="selectLanguage" class="form-label-sm">Language</label>
+                  <select class="form-select mx-1 form-label-sm" aria-label="Select language">
                     <option selected>English</option>
                     <option value="1">繁體中文</option>
                   </select>
@@ -240,27 +240,44 @@
       </div>
     </div>
     <!-- footer↓  -->
-    <footer class="container-fluid bg-primary">
-      <div class="container-xxl">
-        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center border-bottom border-secondary p-3">
-          <div class="mb-3 mb-lg-0 me-lg-3">
-            <img src="../../../images/medalliance-col-w.svg" alt="MedAlliance MedTech Services: Transforming healthcare with telemedicine, mobile nursing, and hospital-at-home solutions. Partnering with Taiwan's finest medical device manufacturers for excellence in patient care." />
+    <footer class="container-fluid p-0" style="background-color: #efefef9e">
+      <div class="container-xxl pt-5">
+        <div class="col d-flex justify-content-center align-items-start mb-4">
+          <img src="https://yasu0304.github.io/medAllianceDemo/images/medalliance-col.svg" alt="" style="width: 12%; height: auto" />
+        </div>
+        <div class="row row-cols-1 row-cols-sm-3 mb-4">
+          <div class="col">
+            <p class="fs-5 fw-bold" style="color: #294076b5; border-bottom: #294076b5 1px solid">Get In Touch</p>
+            <p><i class="bi bi-telephone-fill me-1"></i>+886-2-8522-9995</p>
+            <p><i class="bi bi-file-earmark-text-fill me-1"> </i>+886-2-6601-8299</p>
+            <p><i class="bi bi-envelope-fill me-1"> </i>support@medalliance.com.tw</p>
+            <p><i class="bi bi-geo-alt-fill me-1"></i>No. 68, Section 5, Zhongxiao East Road, Xinyi District, Taipei City</p>
           </div>
-          <div class="d-flex flex-column">
-            <div class="d-flex flex-column flex-lg-row text-white">
-              <div class="mb-3 me-3 mb-lg-3 ps-4" style="text-indent: -12px">
-                <i class="bi bi-telephone-fill me-1"></i>
-                +886-2-8522-9995
+          <div class="col">
+            <p class="fs-5 fw-bold" style="color: #294076b5; border-bottom: #294076b5 1px solid">Follow</p>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+          <div class="col">
+            <p class="fs-5 fw-bold" style="color: #294076b5; border-bottom: #294076b5 1px solid">Contact</p>
+            <form>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control col-12" id="mailInput" placeholder="name@example.com" />
+                <label for="mailInput" class="col-12" style="color: var(--bs-gray-600)"> Email address</label>
               </div>
-              <div class="mb-3 me-3 mb-lg-3 ps-4" style="text-indent: -12px"><i class="bi bi-file-earmark-text-fill me-1"> </i>+886-2-6601-8299</div>
-              <div class="mb-3 me-3 mb-lg-3 ps-4" style="text-indent: -12px"><i class="bi bi-envelope-fill me-1"> </i>support@medalliance.com.tw</div>
-            </div>
-            <div class="ps-4 text-white" style="text-indent: -12px"><i class="bi bi-geo-alt-fill me-1"></i>No. 68, Section 5, Zhongxiao East Road, Xinyi District, Taipei City</div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary float-end" type="submit">Submit form</button>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="p-3">
-          <p class="text-center text-white">Copyright © 2010-2023 Medalliance All rights reserved.</p>
-        </div>
+      </div>
+      <div class="container-fluid p-0 bg-secondary py-2 align-items-stretch">
+        <p class="text-center text-white m-0">Copyright © 2010-2023 Medalliance All rights reserved.</p>
       </div>
     </footer>
     <!-- footer↑  -->
