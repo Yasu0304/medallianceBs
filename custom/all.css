@@ -45,7 +45,8 @@ p,
 .dropdown-menu .dropdown-item.dropdown-item_none:hover,
 .dropdown-menu .dropdown-item.dropdown-item_none :active {
   background-color: #fff;
-  color: #9f9e9f;
+  color: #6c757d;
+  font-weight: 300;
 }
 
 .nav-item:active,
