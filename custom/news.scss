@@ -1,9 +1,16 @@
-@import "base";
-@import "components";
-@import "media";
+@use "base" as *;
+@use "components" as *;
+@use "media" as *;
 
 .heroPic {
   min-height: 250px;
   background-image: url(../images/about/news/AdobeStock_1271611685_Preview.jpeg);
   @include bg-setting(center, center, cover, no-repeat, scroll);
+}
+
+.newsCard-bg {
+  min-height: 150px;
+  @include sm {
+    height: auto;
+  }
 }

@@ -90,3 +90,12 @@ p,
     color: $meda-bk-00;
   }
 }
+
+.footerLogo {
+  max-width: auto;
+  height: 88px;
+  @include sm {
+    max-width: 12%;
+    height: auto;
+  }
+}

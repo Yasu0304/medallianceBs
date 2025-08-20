@@ -6,4 +6,13 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
+}
+
+.newsCard-bg {
+  min-height: 150px;
+}
+@media (min-width: 576px) {
+  .newsCard-bg {
+    height: auto;
+  }
 }/*# sourceMappingURL=news.css.map */

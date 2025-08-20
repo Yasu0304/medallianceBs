@@ -58,4 +58,15 @@ p,
 .nav-item.nav-item_none :hover {
   background-color: #294076;
   color: #fff;
+}
+
+.footerLogo {
+  max-width: auto;
+  height: 88px;
+}
+@media (min-width: 576px) {
+  .footerLogo {
+    max-width: 12%;
+    height: auto;
+  }
 }/*# sourceMappingURL=all.css.map */
