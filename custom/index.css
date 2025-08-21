@@ -1,1 +1,10 @@
-/*# sourceMappingURL=index.css.map */
+.indexCard {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-position: 90% -20%;
+  background-size: 170%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}/*# sourceMappingURL=index.css.map */

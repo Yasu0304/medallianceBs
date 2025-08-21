@@ -1,3 +1,8 @@
-@import "base";
-@import "components";
-@import "media";
+@use "base" as *;
+@use "components" as *;
+@use "media" as *;
+
+.indexCard {
+  @include card(100%);
+  @include bg-setting(90%, -20%, 170%, no-repeat, scroll);
+}
