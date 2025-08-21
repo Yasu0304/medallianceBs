@@ -40,7 +40,7 @@ p,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item :active {
   background-color: #fff;
-  color: #00b0c1;
+  color: #fff;
 }
 .dropdown-menu .dropdown-item.dropdown-item_none:hover,
 .dropdown-menu .dropdown-item.dropdown-item_none :active {
@@ -51,6 +51,9 @@ p,
 
 .nav-item:active,
 .nav-item :hover {
+  background-color: #00b0c1;
+}
+.nav-item .active {
   background-color: #00b0c1;
 }
 

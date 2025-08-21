@@ -47,7 +47,7 @@ p,
     &:hover,
     :active {
       background-color: $meda-bk-00;
-      color: $medasec;
+      color: $meda-bk-00;
     }
   }
 
@@ -79,6 +79,9 @@ p,
 .nav-item {
   &:active,
   :hover {
+    background-color: $medasec;
+  }
+  .active {
     background-color: $medasec;
   }
 }
