@@ -4,5 +4,5 @@
 
 .indexCard {
   @include card(100%);
-  @include bg-setting(90%, -20%, 170%, no-repeat, scroll);
+  @include bg-setting(90%, 0%, cover, no-repeat, scroll);
 }
