@@ -2,7 +2,25 @@
 @use "components" as *;
 @use "media" as *;
 
+.heroPic {
+  min-height: 60vh;
+  background-image: url(../images/AdobeStock_704213899.png);
+  @include bg-setting(115%, top, 70%, no-repeat, scroll);
+}
+
 .indexCard {
   @include card(100%);
-  @include bg-setting(90%, 0%, cover, no-repeat, scroll);
+  &.solutionBg {
+    @include bg-setting(center, center, cover, no-repeat, scroll);
+    @include sm {
+      @include bg-setting(right, 0%, cover, no-repeat, scroll);
+    }
+  }
+
+  &.deviceBG {
+    @include bg-setting(center, center, cover, no-repeat, scroll);
+    @include sm {
+      @include bg-setting(left, center, 130%, no-repeat, visible);
+    }
+  }
 }

@@ -1,10 +1,47 @@
+.heroPic {
+  min-height: 60vh;
+  background-image: url(../images/AdobeStock_704213899.png);
+  background-position: 115% top;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
 .indexCard {
   padding-top: 100%;
   overflow: hidden;
   width: 100%;
-  background-position: 90% 0%;
+}
+.indexCard.solutionBg {
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
+}
+@media (min-width: 576px) {
+  .indexCard.solutionBg {
+    background-position: right 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+.indexCard.deviceBG {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .indexCard.deviceBG {
+    background-position: left center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-attachment: visible;
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=index.css.map */
