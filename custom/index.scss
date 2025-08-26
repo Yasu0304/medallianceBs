@@ -5,7 +5,10 @@
 .heroPic {
   min-height: 60vh;
   background-image: url(../images/AdobeStock_704213899.png);
-  @include bg-setting(115%, top, 70%, no-repeat, scroll);
+  @include bg-setting(center, -25%, cover, no-repeat, scroll);
+  @include sm {
+    @include bg-setting(95%, top, 60%, no-repeat, scroll);
+  }
 }
 
 .indexCard {
