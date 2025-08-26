@@ -53,4 +53,21 @@
     background-attachment: visible;
     overflow: hidden;
   }
+}
+
+.consultingBg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .consultingBg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=index.css.map */
