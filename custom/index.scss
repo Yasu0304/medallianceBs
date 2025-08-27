@@ -36,3 +36,10 @@
     }
   }
 }
+
+.consultingBg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  @include sm {
+    @include bg-setting(center, center, cover, no-repeat, scroll);
+  }
+}
