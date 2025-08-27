@@ -4,7 +4,6 @@
 
 .heroPic {
   min-height: 250px;
-  background-image: url(../images/about/news/AdobeStock_1271611685_Preview.jpeg);
   @include bg-setting(center, center, cover, no-repeat, scroll);
 }
 
