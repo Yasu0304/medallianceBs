@@ -1,6 +1,6 @@
-@import "base";
-@import "components";
-@import "media";
+@use "base" as *;
+@use "components" as *;
+@use "media" as *;
 
 // .solutionHover:hover {
 //   transition: 0.7s;
@@ -145,7 +145,7 @@
   padding-top: 100%;
   overflow: hidden;
   width: 100%;
-  background-color: $medapriOutlinebtn;
+  background-color: rgba(41, 64, 118, 0.7);
   border-radius: 999px;
   overflow: hidden;
 }
@@ -165,7 +165,7 @@
 
 // smartWardPage
 .dotContainer-smartWard_bg {
-  background-image: url(../images/smart_ward_and_mobile_nursing/point.webp);
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
   @include bg-setting(-224%, 100%, 110%, no-repeat, scroll);
   padding: 0 0 30% 0;
   @include sm {
@@ -175,14 +175,14 @@
 
 .contacts-smartWard_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
-  background-image: url(../images/smart_ward_and_mobile_nursing/contacts.webp);
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 // smartOperationPage
 .dotContainer-smartOperation_bg {
-  background-image: url(../images/smart_operation_room/point.webp);
+  background-image: url(../images/solutions/smart_operation_room/key_features.webp);
   @include bg-setting(50%, 112%, 100%, no-repeat, scroll);
   padding: 0 0 30% 0;
   @include sm {
@@ -192,7 +192,7 @@
 
 .contacts-smartOperation_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
-  background-image: url(../images/smart_operation_room/contacts.webp);
+  background-image: url(../images/solutions/smart_operation_room/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -200,7 +200,7 @@
 // telehealthPage
 .dotContainer-telehealth_bg {
   @include bg-setting(50%, 120%, 80%, no-repeat, scroll);
-  background-image: url(../images/telehealth_and_remote_care/point.webp);
+  background-image: url(../images/solutions/telehealth_and_remote_care/point.webp);
   // margin-bottom: 5rem;
   padding: 0 0 30% 0;
   @include sm {
@@ -210,7 +210,7 @@
 
 .contacts-telehealth_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
-  background-image: url(../images/telehealth_and_remote_care/contacts.webp);
+  background-image: url(../images/solutions/telehealth_and_remote_care/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -218,7 +218,7 @@
 // smartDiagnosticPage
 .dotContainer-smartDiagnostic_bg {
   @include bg-setting(100%, 120%, 112%, no-repeat, scroll);
-  background-image: url(../images/smart_diagnostic_and_imaging/point.webp);
+  background-image: url(../images/solutions/smart_diagnostic_and_imaging/point.webp);
   padding: 0 0 30% 0;
   @include sm {
     @include bg-setting(50%, 150%, 70%, no-repeat, scroll);
@@ -227,7 +227,7 @@
 
 .contacts-smartDiagnostic_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
-  background-image: url(../images/smart_diagnostic_and_imaging/contacts.webp);
+  background-image: url(../images/solutions/smart_diagnostic_and_imaging/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -235,7 +235,7 @@
 // intelligentMonitoringPage
 .dotContainer-intelligentMonitoring_bg {
   @include bg-setting(center, 360%, 162%, no-repeat, scroll);
-  background-image: url(../images/intelligent_monitoring/point.webp);
+  background-image: url(../images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
   @include sm {
     @include bg-setting(center, -50%, 80%, no-repeat, scroll);
@@ -244,7 +244,7 @@
 
 .contacts-intelligentMonitoring_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
-  background-image: url(../images/solutions/intelligent_monitoring/contacts.webp);
+  background-image: url(https://yasu0304.github.io/medAllianceDemo/images/solutions/intelligent_monitoring/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -252,7 +252,7 @@
 // medicalSuppliesPage
 .dotContainer-medicalSupplies_bg {
   @include bg-setting(center, 100%, 160%, no-repeat, scroll);
-  background-image: url(../images/medical_supplies_and_equipment/point.webp);
+  background-image: url(../images/solutions/medical_supplies_and_equipment/point.webp);
   padding: 0 0 30% 0;
   @include sm {
     @include bg-setting(center, 110%, 80%, no-repeat, scroll);
@@ -261,7 +261,7 @@
 
 .contacts-medicalSupplies_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
-  background-image: url(../images/medical_supplies_and_equipment/contacts.webp);
+  background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
