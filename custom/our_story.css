@@ -6,20 +6,22 @@
 }
 
 .squareCard {
-  padding-top: 100%;
+  padding-top: 60%;
   overflow: hidden;
   width: 100%;
   position: relative;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 12px 48px;
+  overflow: hidden;
 }
 
 .cardContent {
   position: absolute;
-  top: 5%;
+  top: 50%;
   left: 0;
-  right: 0;
+  transform: translate(0, -50%);
 }
 
 .contenctSection {
