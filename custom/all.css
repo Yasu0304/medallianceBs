@@ -65,11 +65,11 @@ p,
 
 .footerLogo {
   max-width: auto;
-  height: 88px;
+  height: 4.5vh;
 }
 @media (min-width: 576px) {
   .footerLogo {
-    max-width: 12%;
-    height: auto;
+    max-width: auto;
+    height: 4vh;
   }
 }/*# sourceMappingURL=all.css.map */
