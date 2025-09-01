@@ -16,11 +16,11 @@ function submitHandler(event) {
   link.click();
 
   // 顯示 Bootstrap Alert
-  const alertBox = document.getElementById("alertBox");
-  alertBox.style.display = "block";
-  setTimeout(() => {
-    alertBox.classList.add("show");
-  }, 10);
+  // const alertBox = document.getElementById("alertBox");
+  // alertBox.style.display = "block";
+  // setTimeout(() => {
+  //   alertBox.classList.add("show");
+  // }, 10);
 
   // ✅ 自動清空表單
   document.getElementById("contactForm").reset();
