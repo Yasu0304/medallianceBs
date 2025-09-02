@@ -1,6 +1,7 @@
 @use "base" as *;
 @use "components" as *;
 @use "media" as *;
+@use "animat" as *;
 
 // .solutionHover:hover {
 //   transition: 0.7s;
@@ -19,10 +20,19 @@
   @include bg-setting(40%, center, cover, no-repeat, scroll);
 }
 
+.sildeRight {
+  @include slide-right(2s);
+}
+
+.sildeLeft {
+  @include slide-left(2s);
+}
+
 .imgWidth {
   max-width: 90%;
   height: auto;
 }
+
 @media (min-width: 576px) {
   .imgWidth {
     max-width: 100%;

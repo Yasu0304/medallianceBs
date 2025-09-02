@@ -26,6 +26,22 @@ p,
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   }
 }
+
+.cardBtn {
+  background-color: rgba(255, 255, 255, 0.336);
+  border-radius: 999px;
+  border: 2 $meda-bk-00 solid;
+  border-color: $meda-bk-00;
+  color: $meda-bk-00;
+  transition: 0.3s;
+  &:hover {
+    background-color: $medapri-70;
+    border: 2 $medapri solid;
+    border-color: $medapri;
+    color: $meda-bk-00;
+  }
+}
+
 // 導航列
 .p_navLink {
   color: $medasec;
