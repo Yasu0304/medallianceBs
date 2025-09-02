@@ -13,7 +13,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   overflow: hidden;
 }
 
@@ -21,6 +21,11 @@
   position: absolute;
   top: 50%;
   left: 0;
+  transform: translate(0, -50%);
+}
+.cardContent:nth-child(odd) {
+  top: 50%;
+  right: 0;
   transform: translate(0, -50%);
 }
 
