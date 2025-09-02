@@ -1,6 +1,6 @@
-@import "base";
-@import "media";
-@import "components";
+@use "base" as *;
+@use "media" as *;
+@use "components" as *;
 
 .viedoLocation {
   @include card(56.25%);
@@ -10,11 +10,7 @@
 .squareCard {
   @include card(60%);
   position: relative;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 12px 48px;
-  overflow: hidden;
+  @include bg-setting(center, center, cover, no-repeat, fixed);
 }
 
 .cardContent {

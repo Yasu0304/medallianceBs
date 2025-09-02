@@ -13,7 +13,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 12px 48px;
+  background-attachment: fixed;
   overflow: hidden;
 }
 
