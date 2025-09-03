@@ -6200,8 +6200,36 @@ progress {
   order: 5 !important;
 }
 
-.order-last {
+.order-6 {
   order: 6 !important;
+}
+
+.order-7 {
+  order: 7 !important;
+}
+
+.order-8 {
+  order: 8 !important;
+}
+
+.order-9 {
+  order: 9 !important;
+}
+
+.order-10 {
+  order: 10 !important;
+}
+
+.order-11 {
+  order: 11 !important;
+}
+
+.order-12 {
+  order: 12 !important;
+}
+
+.order-last {
+  order: 12 !important;
 }
 
 .m-0 {
@@ -7683,8 +7711,29 @@ progress {
   .order-sm-5 {
     order: 5 !important;
   }
-  .order-sm-last {
+  .order-sm-6 {
     order: 6 !important;
+  }
+  .order-sm-7 {
+    order: 7 !important;
+  }
+  .order-sm-8 {
+    order: 8 !important;
+  }
+  .order-sm-9 {
+    order: 9 !important;
+  }
+  .order-sm-10 {
+    order: 10 !important;
+  }
+  .order-sm-11 {
+    order: 11 !important;
+  }
+  .order-sm-12 {
+    order: 12 !important;
+  }
+  .order-sm-last {
+    order: 12 !important;
   }
   .m-sm-0 {
     margin: 0 !important;
@@ -8244,8 +8293,29 @@ progress {
   .order-md-5 {
     order: 5 !important;
   }
-  .order-md-last {
+  .order-md-6 {
     order: 6 !important;
+  }
+  .order-md-7 {
+    order: 7 !important;
+  }
+  .order-md-8 {
+    order: 8 !important;
+  }
+  .order-md-9 {
+    order: 9 !important;
+  }
+  .order-md-10 {
+    order: 10 !important;
+  }
+  .order-md-11 {
+    order: 11 !important;
+  }
+  .order-md-12 {
+    order: 12 !important;
+  }
+  .order-md-last {
+    order: 12 !important;
   }
   .m-md-0 {
     margin: 0 !important;
@@ -8805,8 +8875,29 @@ progress {
   .order-lg-5 {
     order: 5 !important;
   }
-  .order-lg-last {
+  .order-lg-6 {
     order: 6 !important;
+  }
+  .order-lg-7 {
+    order: 7 !important;
+  }
+  .order-lg-8 {
+    order: 8 !important;
+  }
+  .order-lg-9 {
+    order: 9 !important;
+  }
+  .order-lg-10 {
+    order: 10 !important;
+  }
+  .order-lg-11 {
+    order: 11 !important;
+  }
+  .order-lg-12 {
+    order: 12 !important;
+  }
+  .order-lg-last {
+    order: 12 !important;
   }
   .m-lg-0 {
     margin: 0 !important;
@@ -9366,8 +9457,29 @@ progress {
   .order-xl-5 {
     order: 5 !important;
   }
-  .order-xl-last {
+  .order-xl-6 {
     order: 6 !important;
+  }
+  .order-xl-7 {
+    order: 7 !important;
+  }
+  .order-xl-8 {
+    order: 8 !important;
+  }
+  .order-xl-9 {
+    order: 9 !important;
+  }
+  .order-xl-10 {
+    order: 10 !important;
+  }
+  .order-xl-11 {
+    order: 11 !important;
+  }
+  .order-xl-12 {
+    order: 12 !important;
+  }
+  .order-xl-last {
+    order: 12 !important;
   }
   .m-xl-0 {
     margin: 0 !important;
@@ -9927,8 +10039,29 @@ progress {
   .order-xxl-5 {
     order: 5 !important;
   }
-  .order-xxl-last {
+  .order-xxl-6 {
     order: 6 !important;
+  }
+  .order-xxl-7 {
+    order: 7 !important;
+  }
+  .order-xxl-8 {
+    order: 8 !important;
+  }
+  .order-xxl-9 {
+    order: 9 !important;
+  }
+  .order-xxl-10 {
+    order: 10 !important;
+  }
+  .order-xxl-11 {
+    order: 11 !important;
+  }
+  .order-xxl-12 {
+    order: 12 !important;
+  }
+  .order-xxl-last {
+    order: 12 !important;
   }
   .m-xxl-0 {
     margin: 0 !important;
