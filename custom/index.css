@@ -84,4 +84,14 @@
     background-attachment: scroll;
     overflow: hidden;
   }
+}
+
+.medicalBg {
+  min-height: 60vh;
+  background-image: url(../images/index/medical_device_solution-as-a_service.webp);
+  background-position: center right;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
 }/*# sourceMappingURL=index.css.map */
