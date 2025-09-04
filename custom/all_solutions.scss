@@ -1,7 +1,6 @@
 @use "base" as *;
 @use "components" as *;
 @use "media" as *;
-@use "animat" as *;
 
 // .solutionHover:hover {
 //   transition: 0.7s;
@@ -18,14 +17,6 @@
 .heroPic {
   min-height: 250px;
   @include bg-setting(40%, center, cover, no-repeat, scroll);
-}
-
-.sildeRight {
-  @include slide-right(2s);
-}
-
-.sildeLeft {
-  @include slide-left(2s);
 }
 
 .imgWidth {
