@@ -86,12 +86,38 @@
   }
 }
 
+.infoSet {
+  position: absolute;
+  top: 30%;
+  right: -10%;
+  width: 120%;
+}
+@media (min-width: 576px) {
+  .infoSet {
+    position: absolute;
+    top: 36%;
+    right: -4%;
+    width: 110%;
+  }
+}
+
 .medicalBg {
   min-height: 60vh;
   background-image: url(../images/index/medical_device_solution-as-a_service.webp);
-  background-position: center right;
-  background-size: 60%;
+  background-position: center center;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
+}
+@media (min-width: 576px) {
+  .medicalBg {
+    min-height: 60vh;
+    background-image: url(../images/index/medical_device_solution-as-a_service.webp);
+    background-position: center right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=index.css.map */
