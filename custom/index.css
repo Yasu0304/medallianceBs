@@ -31,6 +31,24 @@
   }
 }
 
+.mb120 {
+  margin-bottom: 24px;
+}
+@media (min-width: 576px) {
+  .mb120 {
+    margin-bottom: 120px;
+  }
+}
+
+.py120 {
+  padding: 0px;
+}
+@media (min-width: 576px) {
+  .py120 {
+    padding: 120px 0px;
+  }
+}
+
 .indexCard {
   padding-top: 100%;
   overflow: hidden;
@@ -79,6 +97,17 @@
 @media (min-width: 576px) {
   .consultingBg {
     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 576px) {
+  .inOneBg {
+    background-image: url(../images/index/all-in-one_solutions-sm.webp);
+    background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
