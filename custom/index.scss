@@ -58,7 +58,7 @@
 
 .inOneBg {
   @include sm {
-    background-image: url(../images/index/all-in-one_solutions-sm.webp);
+    background-image: url(https://medalliance.com.tw/images/index/all-in-one_solutions-sm.webp);
     @include bg-setting(center, right, cover, no-repeat, scroll);
   }
 }
