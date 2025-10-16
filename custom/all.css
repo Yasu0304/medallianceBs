@@ -78,6 +78,30 @@ p,
   color: #fff;
 }
 
+.dropdown-menu_lan {
+  width: auto;
+  min-width: 0;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.flag-btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+}
+
 .footerLogo {
   max-width: auto;
   height: 3vh;
