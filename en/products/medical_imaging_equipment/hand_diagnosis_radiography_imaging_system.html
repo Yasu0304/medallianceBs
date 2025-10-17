@@ -143,15 +143,18 @@
               <li class="nav-item py-0">
                 <a class="nav-link text-white p-3 active" href="https://medalliance.com.tw/en/products.html" id="navbarDropdown" role="button">Products</a>
               </li>
-              <li class="nav-item py-0 nav-item_none">
-                <div class="d-flex flex-row text-white py-0 px-3 align-items-center">
-                  <label for="selectLanguage" class="form-label-sm">Language</label>
-                  <select class="form-select mx-1 form-label-sm" aria-label="Select language">
-                    <option selected>English</option>
-                    <option value="1">繁體中文</option>
-                  </select>
-                </div>
-              </li>
+              <button class="flag-btn dropdown-toggle p-3" id="languageMenu" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Select Language">
+                <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
+              </button>
+              <!-- 🔽 下拉選單 -->
+              <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
+                <li>
+                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/products/medical_imaging_equipment/hand_diagnosis_radiography_imaging_system.html"> <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />English</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/products/medical_imaging_equipment/hand_diagnosis_radiography_imaging_system.html"> <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />繁體中文</a>
+                </li>
+              </ul>
             </ul>
           </div>
         </div>
