@@ -64,5 +64,5 @@
   "editor.hover.above": true,
   "less.hover.references": false,
   "scss.hover.references": false,
-  "editor.hover.enabled": false
+  "editor.hover.enabled": "off"
 }
