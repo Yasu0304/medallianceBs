@@ -20,14 +20,12 @@
 
 .heroTitle {
   background-color: rgba(255, 255, 255, 0.062);
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 @media (min-width: 576px) {
   .heroTitle {
     background-color: rgba(255, 255, 255, 0);
-    -webkit-backdrop-filter: blur(0px);
-            backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
   }
 }
 
