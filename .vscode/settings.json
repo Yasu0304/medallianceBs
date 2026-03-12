@@ -59,10 +59,6 @@
     "gleam": "gleam run -m $fileNameWithoutExt"
   },
   "emmet.syntaxProfiles": {},
-  "liveServer.settings.port": 5501,
-  "editor.wordWrap": "on",
-  "editor.hover.above": true,
-  "less.hover.references": false,
-  "scss.hover.references": false,
-  "editor.hover.enabled": "off"
+  "liveServer.settings.port": 5502,
+  "editor.wordWrap": "on"
 }
