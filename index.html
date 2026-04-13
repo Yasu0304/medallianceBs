@@ -46,11 +46,63 @@
   </head>
 
   <body style="display: flex; flex-direction: column">
+    <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff81; backdrop-filter: blur(15px); height: 100vh; overflow: hidden; width: 100vw; position: absolute; z-index: 100">
+      <div class="container-md">
+        <div class="row row-cols-1 row-cols-3 g-4 justify-content-center mb-5">
+          <div class="col">
+            <a href="https://medalliance.com.tw/en/index.html" class="text-decoration-none py-4">
+              <div class="card h-100 py-5 px-3" style="border: 2px #efefef9e solid">
+                <div class="mx-auto" style="height: 70px; width: 70px; border-radius: 100%; background-color: var(--bs-primary); margin-bottom: 28px">
+                  <p class="text-center text-white fw-bold" style="font-size: 2rem; line-height: 70px">EN</p>
+                </div>
+                <p class="text-center">Welcome. Please select your region for the most relevant product information and clinical solutions.</p>
+                <a class="btn col-12" style="color: var(--bs-primary)" href="https://medalliance.com.tw/en/index.html" role="button">
+                  International - English
+                  <i class="bi bi-box-arrow-up-right ms-2"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://medalliance.com.tw/zh_t/index.html" class="text-decoration-none py-4">
+              <div class="card h-100 py-5 px-3" style="border: 2px #efefef9e solid">
+                <div class="mx-auto" style="height: 70px; width: 70px; border-radius: 100%; background-color: var(--bs-primary); margin-bottom: 28px">
+                  <p class="text-center text-white fw-bold" style="font-size: 2rem; line-height: 70px">繁</p>
+                </div>
+                <p class="text-center">您好！請選擇您的所在區域以獲取最相關的產品資訊。</p>
+                <a class="btn col-12 mt-auto" style="color: var(--bs-primary)" href="https://medalliance.com.tw/zh_t/index.html" role="button">
+                  Taiwan - 繁體中文
+                  <i class="bi bi-box-arrow-up-right ms-2"></i>
+                </a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div style="display: table-cell; padding: 0 1rem; text-align: center; vertical-align: middle">
+            <img src="https://medalliance.com.tw/images/medalliance-og.jpg" style="width: 25%; height: auto" alt="" />
+            <p class="fw-bold">Welcome. Please select your region for the most relevant product information and clinical solutions.</p>
+            <p class="fw-bold">您好！請選擇您的所在區域以獲取最相關的產品資訊。</p>
+            <div class="pt-5">
+              <a class="btn btn-light" style="color: var(--bs-primary)" href="https://medalliance.com.tw/en/index.html" role="button">
+                International - English
+                <i class="bi bi-box-arrow-up-right ms-2"></i>
+              </a>
+              <a class="btn btn-light" style="color: var(--bs-primary)" href="https://medalliance.com.tw/zh_t/index.html" role="button">
+                Taiwan - 繁體中文
+                <i class="bi bi-box-arrow-up-right ms-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8ZT55P5" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <div class="d-flex flex-column flex-grow-1">
-      <nav id="navbarEquipments" class="navbar navbar-expand-lg bg-primary sticky-top shadow-sm py-0">
+      <!-- <nav id="navbarEquipments" class="navbar navbar-expand-lg bg-primary sticky-top shadow-sm py-0">
         <div class="container-fluid py-0">
           <a class="navbar-brand py-sm-0 py-3" href="https://medalliance.com.tw/"><img src="https://medalliance.com.tw/images/medalliance-row-w.svg" class="navbarImg" alt="MedAlliance | Integrated Smart Healthcare Solutions" /></a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -163,26 +215,11 @@
               <button class="flag-btn dropdown-toggle p-3" id="languageMenu" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Select Language">
                 <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
               </button>
-              <!-- 🔽 下拉選單 -->
-              <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
-                <li>
-                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/">
-                    <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
-                    English
-                  </a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/index.html">
-                    <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
-                    繁體中文
-                  </a>
-                </li>
-              </ul>
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
+
       <div class="container-fluid flex-column flex-grow-1 g-sm-0" style="margin-bottom: 72px; overflow: hidden">
         <div class="row heroPic justify-content-center align-items-sm-center align-items-end mb-5">
           <div class="col-sm-6 col-12 mb-3 mb-sm-0 py-3 heroTitle">
@@ -197,392 +234,6 @@
             </a>
           </div>
         </div>
-        <!-- content↓ -->
-        <section class="container-xxl">
-          <!-- Comprehensive Consulting Services for Scalable Smart Healthcare -->
-          <div class="row justify-content-center">
-            <div class="col-sm-10 col-12 mb120">
-              <p class="fs-2 fw-bold text-secondary text-center">Comprehensive Consulting Services for Scalable Smart Healthcare</p>
-              <p class="fs-5">At MedAlliance, we don't just deliver equipment — we deliver scalable, adaptable, and future-ready healthcare solutions to help you navigate change and create new value in care delivery.</p>
-              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style="min-height: 350px">
-                <div class="col">
-                  <div class="card border-0 h-100" style="background-image: url(https://medalliance.com.tw/images/services/smart_healthcare_implementation_consulting-cover.webp); background-position: center center; background-size: cover; background-repeat: no-repeat; overflow: hidden" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="false" alt="Comprehensive Consulting Services for Scalable Smart Healthcare">
-                    <div class="card-img-top" alt="Comprehensive Consulting Services for Scalable Smart Healthcare" style="min-height: 150px"></div>
-                    <div class="card-body d-flex flex-column justify-content-between" style="background-image: linear-gradient(to top, #acacacc2, #ffffff00); backdrop-filter: blur(2.5px)">
-                      <h5 class="card-title fs-5 fw-bold text-white mb-3 text-center">Smart Healthcare Implementation Consulting</h5>
-                      <a type="button" class="btn col-auto mx-auto px-3 cardBtn" href="https://medalliance.com.tw/en/services/smart_healthcare_consulting.html">
-                        Read more
-                        <i class="bi bi-arrow-right-circle-fill ms-2"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 h-100" style="background-image: url(https://medalliance.com.tw/images/services/cross-system_integration_and_workflow_optimization-cover.webp); background-position: center center; background-size: cover; background-repeat: no-repeat; overflow: hidden" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="false" alt="Cross-System Integration & Workflow Optimization">
-                    <div class="card-img-top" alt="Cross-System Integration & Workflow Optimization" style="min-height: 150px"></div>
-                    <div class="card-body d-flex flex-column justify-content-between" style="background-image: linear-gradient(to top, #acacacc2, #ffffff00); backdrop-filter: blur(2.5px)">
-                      <h5 class="card-title fs-5 fw-bold text-white mb-3 text-center">Cross-System Integration & Workflow Optimization</h5>
-                      <a type="button" class="btn col-auto mx-auto px-3 cardBtn" href="https://medalliance.com.tw/en/services/cross-device_integration_and_workflow_advisory.html">
-                        Read more
-                        <i class="bi bi-arrow-right-circle-fill ms-2"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 h-100" style="background-image: url(https://medalliance.com.tw/images/services/international_market_expansion_advisory-cover.webp); background-position: center center; background-size: cover; background-repeat: no-repeat; overflow: hidden" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="false" alt="Global Market Expansion Advisory">
-                    <div class="card-img-top" alt="Global Market Expansion Advisory" style="min-height: 150px"></div>
-                    <div class="card-body d-flex flex-column justify-content-between" style="background-image: linear-gradient(to top, #acacacc2, #ffffff00); backdrop-filter: blur(2.5px)">
-                      <h5 class="card-title fs-5 fw-bold text-white mb-3 text-center">Global Market Expansion Advisory</h5>
-                      <a type="button" class="btn col-auto mx-auto px-3 cardBtn" href="https://medalliance.com.tw/en/services/global_market_expansion_advisory.html">
-                        Read more
-                        <i class="bi bi-arrow-right-circle-fill ms-2"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 h-100" style="background-image: url(https://medalliance.com.tw/images/services/cm_oem_odm_collaboration_models-cover.webp); background-position: center center; background-size: cover; background-repeat: no-repeat; overflow: hidden" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="false" alt="CM/OEM/ODM Collaboration Models">
-                    <div class="card-img-top" alt="CM/OEM/ODM Collaboration Models" style="min-height: 150px"></div>
-                    <div class="card-body d-flex flex-column justify-content-between" style="background-image: linear-gradient(to top, #acacacc2, #ffffff00); backdrop-filter: blur(2.5px)">
-                      <h5 class="card-title fs-5 fw-bold text-white mb-3 text-center">CM/OEM/ODM Collaboration Models</h5>
-                      <a type="button" class="btn col-auto mx-auto px-3 cardBtn" href="https://medalliance.com.tw/en/services/cm_oem_odm_ems.html">
-                        Read more
-                        <i class="bi bi-arrow-right-circle-fill ms-2"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 h-100" style="background-image: url(https://medalliance.com.tw/images/services/export_products-cover.webp); background-position: center center; background-size: cover; background-repeat: no-repeat; overflow: hidden" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="false" alt="Export Products">
-                    <div class="card-img-top" alt="Export Products" style="min-height: 150px"></div>
-                    <div class="card-body d-flex flex-column justify-content-between" style="background-image: linear-gradient(to top, #acacacc2, #ffffff00); backdrop-filter: blur(2.5px)">
-                      <h5 class="card-title fs-5 fw-bold text-white mb-3 text-center">Export Products</h5>
-                      <a type="button" class="btn col-auto mx-auto px-3 cardBtn" href="https://medalliance.com.tw/en/services/export_products.html">
-                        Read more
-                        <i class="bi bi-arrow-right-circle-fill ms-2"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Smart Healthcare, All-in-One Solutions -->
-          <div class="row justify-content-start g-0 inOneBg mb120">
-            <hr class="mb-0" />
-            <div class="col-12 d-block d-sm-none py-5">
-              <img src="https://medalliance.com.tw/images/index/all-in-one_solutions.webp" class="img-fluid" alt="" />
-            </div>
-            <div class="col-sm-5 col-12 py120">
-              <p class="fs-2 fw-bold text-secondary text-center text-sm-start">
-                Smart Healthcare,
-                <br />
-                All-in-One Solutions
-              </p>
-              <p class="fs-5">At MedAlliance, we don't just deliver equipment — we deliver scalable, adaptable, and future-ready healthcare solutions to help you navigate change and create new value in care delivery.</p>
-            </div>
-            <hr />
-          </div>
-
-          <!-- Intelligent Healthcare Solution-as-a-Service -->
-          <div class="row justify-content-center mb-3 mb120">
-            <div class="col-sm-6 col-12" style="position: relative">
-              <img src="https://medalliance.com.tw/images/index/intelligent_ealthcare_solution-as-a_service.webp" alt="Smart Healthcare, All-in-One Solutions" class="img-fluid" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false" />
-              <img src="https://medalliance.com.tw/images/index/info-2.svg" class="infoSet" alt="At MedAlliance, we don't just deliver equipment — we deliver scalable, adaptable, and future-ready healthcare solutions to help you navigate change and create new value in care delivery." data-aos="fade-down" data-aos-duration="3000" data-aos-once="false" />
-            </div>
-            <div class="col-sm-6 col-12 d-flex flex-column justify-content-center">
-              <p class="fs-2 fw-bold text-secondary text-center text-sm-start">Intelligent Healthcare Solution-as- a-Service</p>
-              <p class="fs-5 mb-3">Customized for hospitals and care facilities, this track includes smart ward systems, mobile nursing tools, and telehealth services — integrating hardware, software, and workflow design.</p>
-
-              <div class="row justify-content-center">
-                <div class="col-10 col-sm-4 d-flex flex-column justify-content-center py-4 px-3" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pc-display-horizontal text-center text-primary mx-auto mb-3" viewBox="0 0 16 16">
-                    <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25" />
-                  </svg>
-                  <p class="fs-5 text-primary fw-bold text-center">Smart Ward & Mobile Nursing</p>
-                  <a class="btn btn-primary rounded-pill fw-bold col-6 col-sm-12 mx-auto" href="https://medalliance.com.tw/en/solutions/intelligent_healthcare_solution-as-a-service/smart_ward_and_mobile_nursing.html">Read more</a>
-                </div>
-                <div class="col-10 col-sm-4 d-flex flex-column justify-content-between py-4 px-3" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-router-fill text-center text-primary mx-auto mb-3" viewBox="0 0 16 16">
-                    <path d="M5.525 3.025a3.5 3.5 0 0 1 4.95 0 .5.5 0 1 0 .707-.707 4.5 4.5 0 0 0-6.364 0 .5.5 0 0 0 .707.707" />
-                    <path d="M6.94 4.44a1.5 1.5 0 0 1 2.12 0 .5.5 0 0 0 .708-.708 2.5 2.5 0 0 0-3.536 0 .5.5 0 0 0 .707.707Z" />
-                    <path d="M2.974 2.342a.5.5 0 1 0-.948.316L3.806 8H1.5A1.5 1.5 0 0 0 0 9.5v2A1.5 1.5 0 0 0 1.5 13H2a.5.5 0 0 0 .5.5h2A.5.5 0 0 0 5 13h6a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5h.5a1.5 1.5 0 0 0 1.5-1.5v-2A1.5 1.5 0 0 0 14.5 8h-2.306l1.78-5.342a.5.5 0 1 0-.948-.316L11.14 8H4.86zM2.5 11a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m4.5-.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m1.5-.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0" />
-                    <path d="M8.5 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
-                  </svg>
-                  <p class="fs-5 text-primary fw-bold text-center">Telehealth & Remote Care</p>
-                  <a class="btn btn-primary rounded-pill fw-bold col-6 col-sm-12 mx-auto" href="https://medalliance.com.tw/en/solutions/intelligent_healthcare_solution-as-a-service/telehealth_and_remote_care.html">Read more</a>
-                </div>
-                <div class="col-10 col-sm-4 d-flex flex-column justify-content-center py-4 px-3" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-diagram-3-fill text-center text-primary mx-auto mb-3" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5z" />
-                  </svg>
-                  <p class="fs-5 text-primary fw-bold text-center">Smart Operation Room</p>
-                  <a class="btn btn-primary rounded-pill fw-bold col-6 col-sm-12 mx-auto" href="https://medalliance.com.tw/en/solutions/intelligent_healthcare_solution-as-a-service/smart_operation_room.html">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--  Medical Device Solution-as-a-Service -->
-          <div class="row justify-content-start align-items-center mb-3 mb120">
-            <div class="col-sm-6 col-12 d-flex flex-column">
-              <p class="fs-2 fw-bold text-secondary text-center text-sm-start">Medical Device Solution-as-a-Service</p>
-              <p class="fs-5 mb-3">Leveraging our international sourcing network and Taiwan's strong manufacturing base, we offer full-cycle support from product curation to export — helping clients deploy diagnostic, monitoring, and care equipment with ease.</p>
-              <div class="row justify-content-center">
-                <div class="col-10 col-sm-4 d-flex flex-column justify-content-center py-4 px-3 h-100" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-card-image text-center text-primary mx-auto mb-3" viewBox="0 0 16 16">
-                    <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
-                    <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54L1 12.5v-9a.5.5 0 0 1 .5-.5z" />
-                  </svg>
-                  <p class="fs-5 text-primary fw-bold text-center">Smart Diagnostic & Imaging</p>
-                  <a class="btn btn-primary rounded-pill fw-bold col-6 col-sm-12 mx-auto" href="https://medalliance.com.tw/en/solutions/medical_device_solution-as-a-service/smart_diagnostic_and_imaging.html">Read more</a>
-                </div>
-                <div class="col-10 col-sm-4 d-flex flex-column justify-content-between py-4 px-3 h-100" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-aspect-ratio text-center text-primary mx-auto mb-3" viewBox="0 0 16 16">
-                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z" />
-                    <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z" />
-                  </svg>
-                  <p class="fs-5 text-primary fw-bold text-center">Intelligent Monitoring</p>
-                  <a class="btn btn-primary rounded-pill fw-bold col-6 col-sm-12 mx-auto" href="https://medalliance.com.tw/en/solutions/medical_device_solution-as-a-service/intelligent_monitoring.html">Read more</a>
-                </div>
-                <div class="col-10 col-sm-4 d-flex flex-column justify-content-center py-4 px-3" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-hospital text-center text-primary mx-auto mb-3" viewBox="0 0 16 16">
-                    <path d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z" />
-                    <path d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1zm2 14h2v-3H7zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zm0-14H6v1h4zm2 7v7h3V8zm-8 7V8H1v7z" />
-                  </svg>
-                  <p class="fs-5 text-primary fw-bold text-center">Medical Supplies & Equipment</p>
-                  <a class="btn btn-primary rounded-pill fw-bold col-6 col-sm-12 mx-auto" href="https://medalliance.com.tw/en/solutions/medical_device_solution-as-a-service/medical_supplies_and_equipment.html">Read more</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-12 medicalBg order-first order-sm-last" data-aos="fade-up" data-aos-duration="3000" data-aos-once="false"></div>
-          </div>
-
-          <!-- news -->
-          <div class="row justify-content-center mb-3 g-0">
-            <div class="col-sm-8 col-12 mb120">
-              <div class="rounded-3 py-3 px-sm-5 px-3" style="background-color: #294076b5; padding-left: 5em">
-                <p class="fs-2 fw-bold text-white text-center">News</p>
-                <div class="mb-2">
-                  <p class="text-white mb-0">2023.12.01</p>
-                  <a class="fs-5 text-white text-decoration-none" href="https://medalliance.com.tw/en/about/news/2023.html">
-                    MedAlliance Partners with Intel to Showcase Smart Healthcare Ecosystem at 2023 Healthcare+ Expo Taiwan
-                    <i class="bi bi-box-arrow-up-right ms-2"></i>
-                  </a>
-                </div>
-                <hr style="color: white; text-indent: -3em" />
-                <div class="mb-2">
-                  <p class="text-white mb-0">2022.12.01</p>
-                  <a class="fs-5 text-white text-decoration-none" href="https://medalliance.com.tw/en/about/news/2022.html">
-                    MedAlliance Showcases Smart Healthcare Integration at 2022 Healthcare+ Expo Taiwan
-                    <i class="bi bi-box-arrow-up-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row justify-content-center" style="margin-bottom: 120px">
-            <div class="col-sm-10 col-12">
-              <!-- Swiper -->
-              <div class="swiper indexIetmSwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/low_dose_portable_fluoro-radiography_system.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Low Dose Portable Fluoro-Radiography System</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                          <li>NVIDIA RTX A1000/A2000/A4500 MXM Graphics</li>
-                          <li>Intel® 14th generation Core™ i9/ i7/ i5 / i3 Processor</li>
-                          <li>Support Dual Channel DDR5 5600Mhz SODIMM up to 96GB</li>
-                        </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/en/products/medical_imaging/low_dose_portable_fluoro-radiography_system.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/contactless_fall_management_and_bedside_insights.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Contactless Fall Management & Health Insights</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                          <li>NVIDIA RTX A1000/A2000/A4500 MXM Graphics</li>
-                          <li>Intel® 14th generation Core™ i9/ i7/ i5 / i3 Processor</li>
-                          <li>Support Dual Channel DDR5 5600Mhz SODIMM up to 96GB</li>
-                        </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/en/products/intelligent_monitoring/contactless_fall_management_and_bedside_insights.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/opportunistic_screening_for_low_bone_mineral_density.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Opportunistic Screening for Low Bone Mineral Density</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                          <li>NVIDIA RTX A1000/A2000/A4500 MXM Graphics</li>
-                          <li>Intel® 14th generation Core™ i9/ i7/ i5 / i3 Processor</li>
-                          <li>Support Dual Channel DDR5 5600Mhz SODIMM up to 96GB</li>
-                        </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/en/products/medical_imaging/opportunistic_screening_for_low_bone_mineral_density.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/a2203.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">ACCEL-A2203</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                          <li>NVIDIA RTX A1000/A2000/A4500 MXM Graphics</li>
-                          <li>Intel® 14th generation Core™ i9/ i7/ i5 / i3 Processor</li>
-                          <li>Support Dual Channel DDR5 5600Mhz SODIMM up to 96GB</li>
-                        </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/medical_ai_pc/accel_a2203.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/js1100.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">ACCEL-JS1100</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                          <li>NVIDIA Jetson AGX Orin platform with 64GB LPDDR5 or 32GB LPDDR5</li>
-                          <li>Powerful AI computing performance with up to 275 TOPS</li>
-                          <li>Support Front Screen</li>
-                        </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/medical_ai_pc/accel_js1100.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/js2000.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">ACCEL-JS2000</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                          <li>NVIDIA IGX Orin Industrial Module with 250 TOPS AI Performance</li>
-                          <li>Support RTX 6000 Ada GPU card with up to 1700 TOPS AI Performance</li>
-                          <li>ConnectX-7 High Speed Edge Networking 2 x 100Gbe</li>
-                        </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/medical_ai_pc/accel_js2000.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/venus244.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Venus 244</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                              <li>Intel 11th gen Tigerlake, fan less implementation</li>
-                              <li>Windows 11 and IGEL Compliant</li>
-                              <li>Dual Hot Swappable Batteries</li>
-                            </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/medical_cart_computer/venus_244.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/venus224.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Venus 224</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                              <li>Intel 11th gen Tigerlake, fan less implementation</li>
-                              <li>Windows 11 and IGEL Compliant</li>
-                              <li>Dual Hot Swappable Batteries</li>
-                            </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/medical_cart_computer/venus_224.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/md116e.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">MD 116E</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                              <li>Intel® ELKhart Lake Pentium N6415</li>
-                              <li>Dual hot-swappable batteries for 24/7 operation</li>
-                              <li>Dual smart card readers for multiple-care workflow</li>
-                            </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/medical_tablet/md_116e.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/ai_real-time_breathing_monitoring_system.webp" class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">AI Real-Time Breathing Monitoring System</h5>
-                        <!-- <ul style="color: var(--bs-gray-600)">
-                              <li>Real-time monitoring & alerts</li>
-                              <li>Multi-level sedation assessment</li>
-                              <li>Airway obstruction detection</li>
-                            </ul> -->
-                      </div>
-                      <a href="https://medalliance.com.tw/products/intelligent_monitoring/ai_real-time_breathing_monitoring_system.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/masks.webp" class="card-img-top" alt="Masks" />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Masks</h5>
-                      </div>
-                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/masks/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/gloves.webp" class="card-img-top" alt="Gloves" />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Gloves</h5>
-                      </div>
-                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/gloves/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/alcohol_prep_pads.webp" class="card-img-top" alt="Alcohol Prep Pads" />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Alcohol Prep Pads</h5>
-                      </div>
-                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/alcohol-prep-pads/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/personal_protective_equipment.webp" class="card-img-top" alt="Personal Protective Equipment" />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Personal Protective Equipment</h5>
-                      </div>
-                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/personal-protective-equipment/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                  <div class="swiper-slide py-5">
-                    <div class="card h-100 border-0">
-                      <img src="https://medalliance.com.tw/images/gallery/ratio32/mobile_nursing_station.webp" class="card-img-top" alt="Mobile Nursing Station" />
-                      <div class="card-body">
-                        <h5 class="card-title text-primary text-center">Mobile Nursing Station</h5>
-                      </div>
-                      <a href="https://healthcarearmor.com/products/healthcare-it/mobile-nursing-station/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- content↑ -->
       </div>
     </div>
 
