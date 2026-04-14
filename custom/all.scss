@@ -1,6 +1,6 @@
-@use "base" as *;
-@use "components" as *;
-@use "media" as *;
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
 
 // html {
 //   scroll-padding-top: 66px; //header 高度
@@ -137,5 +137,31 @@ p,
   @include sm {
     max-width: auto;
     height: 4vh;
+  }
+}
+
+// chooseLang
+.langCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffffa8;
+  backdrop-filter: blur(5px);
+  padding: 24px 12px;
+  border-radius: 12px;
+  border: 1px rgba(163, 163, 163, 0) solid;
+  transition: 0.7s;
+  &:hover {
+    // background-color: #29407625;
+    border: 1px #29407626 solid;
+    border-radius: 12px;
+    transform: translateY(-4px);
+  }
+  .langIcon {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: $medapri;
+    margin-bottom: 24px;
   }
 }

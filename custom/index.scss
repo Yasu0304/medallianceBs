@@ -1,10 +1,11 @@
-@use "base" as *;
-@use "components" as *;
-@use "media" as *;
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
 
+// index
 .heroPic {
   min-height: 40vh;
-  background-image: url(../images/hero.webp);
+  background-image: url(https://medalliance.com.tw/images/hero.webp);
   @include bg-setting(60%, top, cover, no-repeat, scroll);
   @include sm {
     min-height: 60vh;
