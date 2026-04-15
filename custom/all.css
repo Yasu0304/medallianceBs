@@ -117,17 +117,18 @@ p,
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.6588235294);
-  backdrop-filter: blur(5px);
+  background-color: rgba(41, 64, 118, 0.5098039216);
+  backdrop-filter: blur(10px);
   padding: 24px 12px;
   border-radius: 12px;
-  border: 1px rgba(163, 163, 163, 0) solid;
   transition: 0.7s;
 }
+.langCard p {
+  color: #fff;
+}
 .langCard:hover {
-  border: 1px rgba(41, 64, 118, 0.1490196078) solid;
   border-radius: 12px;
-  transform: translateY(-4px);
+  transform: translateY(-6px);
 }
 .langCard .langIcon {
   height: 70px;
