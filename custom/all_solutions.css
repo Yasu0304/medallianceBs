@@ -164,7 +164,7 @@
   }
 }
 .dotContainer-smartWard_bg {
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/smart_ward_and_mobile_nursing/point.webp);
   background-position: -224% 100%;
   background-size: 110%;
   background-repeat: no-repeat;
@@ -188,13 +188,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 .dotContainer-smartOperation_bg {
-  background-image: url(../images/solutions/smart_operation_room/key_features.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/smart_operation_room/key_features.webp);
   background-position: 50% 112%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -218,7 +218,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_operation_room/contacts.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/smart_operation_room/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -229,7 +229,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/telehealth_and_remote_care/point.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/telehealth_and_remote_care/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -248,7 +248,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/telehealth_and_remote_care/contacts.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/telehealth_and_remote_care/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -259,7 +259,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_diagnostic_and_imaging/point.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/smart_diagnostic_and_imaging/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -278,7 +278,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_diagnostic_and_imaging/contacts.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/smart_diagnostic_and_imaging/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -289,7 +289,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/intelligent_monitoring/point.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -308,7 +308,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  background-image: url(https://yasu0304.github.io/medAllianceDemo/images/solutions/intelligent_monitoring/contacts.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/intelligent_monitoring/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -319,7 +319,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/medical_supplies_and_equipment/point.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/medical_supplies_and_equipment/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -338,7 +338,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
+  background-image: url(https://medalliance.com.tw/images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }/*# sourceMappingURL=all_solutions.css.map */
