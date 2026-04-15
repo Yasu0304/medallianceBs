@@ -117,7 +117,7 @@ p,
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(41, 64, 118, 0.5098039216);
+  background-color: rgba(41, 64, 118, 0.7098039216);
   backdrop-filter: blur(10px);
   padding: 24px 12px;
   border-radius: 12px;
