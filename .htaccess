@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# 避免影響語系目錄
+RewriteCond %{REQUEST_URI} !^/zh_t/
+RewriteCond %{REQUEST_URI} !^/en/
+
+# 只處理首頁
+RewriteCond %{REQUEST_URI} ^/$
+
+# 中文使用者
+RewriteCond %{HTTP:Accept-Language} ^zh [NC]
+RewriteRule ^$ /zh_t/index.html [R=302,L]
+
+# 其他 → 英文
+RewriteRule ^$ /en/index.html [R=302,L]
