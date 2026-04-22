@@ -36,6 +36,9 @@
     <meta property="og:title" content="MedAlliance at 2022 Healthcare+ Expo" />
     <meta property="og:description" content="Discover how MedAlliance demonstrated smart nursing, remote care, and device integration at the 2022 Healthcare+ Expo in Taiwan." />
     <title>MedAlliance Showcases at 2022 Healthcare+ Expo Taiwan</title>
+    <link rel="alternate" hreflang="zh-TW" href="https://medalliance.com.tw/zh_t/about/news/2022.html" />
+    <link rel="alternate" hreflang="en" href="https://medalliance.com.tw/en/about/news/2022.html" />
+    <link rel="alternate" hreflang="x-default" href="https://medalliance.com.tw/en/about/news/2022.html" />
     <link rel="icon" href="https://medalliance.com.tw/images/favicon.ico" type="image/x-icon" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
@@ -168,14 +171,14 @@
               <!-- 🔽 下拉選單 -->
               <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
                 <li>
-                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/about/news/2022.html">
+                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/about/news/2022.html" onclick="localStorage.setItem('lang', 'en')">
                     <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
                     English
                   </a>
                 </li>
 
                 <li>
-                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/about/news/2022.html">
+                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/about/news/2022.html" onclick="localStorage.setItem('lang', 'zh')">
                     <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
                     繁體中文
                   </a>
@@ -322,6 +325,7 @@
     <!-- footer↑  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://healthmit.services/custom/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://medalliance.com.tw/custom/js/lang.js"></script>
   </body>
   <style>
     html,
