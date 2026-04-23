@@ -7,6 +7,43 @@
 // }
 // 全站設定
 
+// 是否語系切換
+#lang-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  opacity: 0;
+  z-index: 9999;
+  width: 90%;
+  max-width: 520px;
+  transition: all 0.3s ease;
+}
+
+#lang-banner.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.lang-banner-inner {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 14px 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.lang-actions {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+// 是否語系切換end
+
 p,
 .list-group-item {
   color: $meda-bk-60;

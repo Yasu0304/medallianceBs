@@ -28,6 +28,9 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="alternate" hreflang="zh-TW" href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html" />
+    <link rel="alternate" hreflang="en" href="https://medalliance.com.tw/en/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html" />
+    <link rel="alternate" hreflang="x-default" href="https://medalliance.com.tw/en/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html" />
     <meta name="description" content="鈞聯生醫 (MedAlliance) 動態醫療影像記錄系統，提供高精準的動態數據存取方案。支援多路 4K 超高畫質影像同步錄製與即時臨床標記，協助醫療團隊落實手術覆盤、遠距教學與 AI 模型研發，建構具備高度追溯性與洞察力的智慧影像生態。" />
     <meta property="og:image" content="https://medalliance.com.tw/images/medalliance-og.jpg" />
     <meta property="og:image:type" content="image/jpg" />
@@ -163,13 +166,13 @@
               <!-- 🔽 下拉選單 -->
               <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
                 <li>
-                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html">
+                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html" onclick="localStorage.setItem('lang', 'en')">
                     <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
                     English
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html">
+                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html" onclick="localStorage.setItem('lang', 'zh')">
                     <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
                     繁體中文
                   </a>
@@ -428,6 +431,7 @@
         }
       })
     </script>
+    <script src="https://medalliance.com.tw/custom/js/lang.js"></script>
   </body>
   <style>
     html,

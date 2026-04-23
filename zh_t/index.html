@@ -28,6 +28,9 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="alternate" hreflang="zh-TW" href="https://medalliance.com.tw/zh_t/index.html" />
+    <link rel="alternate" hreflang="en" href="https://medalliance.com.tw/en/index.html" />
+    <link rel="alternate" hreflang="x-default" href="https://medalliance.com.tw/" />
     <meta name="description" content="鈞聯生醫 (MedAlliance) 作為智慧醫療科技核心，提供全方位智慧照護與數位醫療轉型解決方案。涵蓋智慧手術室、醫療影像 AI、智慧監控及獸用生化設備，我們透過尖端科技賦能臨床醫療與照護場域，協助醫療機構優化流程、提升效率並定義智慧醫療新未來。" />
     <meta property="og:image" content="https://medalliance.com.tw/images/medalliance-og.jpg" />
     <meta property="og:image:type" content="image/jpg" />
@@ -162,13 +165,13 @@
               <!-- 🔽 下拉選單 -->
               <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
                 <li>
-                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/index.html">
+                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/index.html" onclick="localStorage.setItem('lang', 'en')">
                     <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
                     English
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/index.html">
+                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/index.html" onclick="localStorage.setItem('lang', 'zh')">
                     <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
                     繁體中文
                   </a>
@@ -646,6 +649,7 @@
         }
       })
     </script>
+    <script src="https://medalliance.com.tw/custom/js/lang.js"></script>
   </body>
   <style>
     html,

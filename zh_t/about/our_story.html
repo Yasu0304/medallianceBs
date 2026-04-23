@@ -28,6 +28,9 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="alternate" hreflang="zh-TW" href="https://medalliance.com.tw/zh_t/about/our_story.html" />
+    <link rel="alternate" hreflang="en" href="https://medalliance.com.tw/en/about/our_story.html" />
+    <link rel="alternate" hreflang="x-default" href="https://medalliance.com.tw/en/about/our_story.html" />
     <meta name="description" content="探索鈞聯生醫 (MedAlliance) 的品牌核心。我們以「智慧科技醫療」為戰略藍圖，致力於智慧手術室、醫療影像 AI 及全方位智慧照護的研發與整合。深入了解我們如何透過科技賦能臨床醫療，持續推動醫療生態系的進化與創新。" />
     <meta property="og:image" content="https://medalliance.com.tw/images/medalliance-og.jpg" />
     <meta property="og:image:type" content="image/jpg" />
@@ -161,13 +164,13 @@
               <!-- 🔽 下拉選單 -->
               <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
                 <li>
-                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/about/our_story.html">
+                  <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/about/our_story.html" onclick="localStorage.setItem('lang', 'en')">
                     <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
                     English
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/about/our_story.html">
+                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/about/our_story.html" onclick="localStorage.setItem('lang', 'zh')">
                     <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
                     繁體中文
                   </a>
@@ -358,6 +361,7 @@
     <script>
       AOS.init()
     </script>
+    <script src="https://medalliance.com.tw/custom/js/lang.js"></script>
   </body>
   <style>
     html,
