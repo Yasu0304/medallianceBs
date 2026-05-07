@@ -343,6 +343,18 @@
   padding: 5rem 0;
 }
 
+.clinicalEnvironments {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+  filter: blur(2px);
+}
+
 .fullVersion_bg {
   background-position: center center;
   background-size: cover;

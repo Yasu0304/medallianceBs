@@ -268,6 +268,12 @@
 }
 
 // medicalProtectiveMaskSolutionsPage
+.clinicalEnvironments {
+  @include card(100%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  filter: blur(2px);
+}
+
 .fullVersion_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
 }
