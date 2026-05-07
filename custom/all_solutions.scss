@@ -266,3 +266,8 @@
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
+
+// medicalProtectiveMaskSolutionsPage
+.fullVersion_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+}

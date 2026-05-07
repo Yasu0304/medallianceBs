@@ -341,4 +341,12 @@
   background-image: url(https://medalliance.com.tw/images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
+}
+
+.fullVersion_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
 }/*# sourceMappingURL=all_solutions.css.map */
