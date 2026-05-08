@@ -39,7 +39,7 @@ p,
 }
 
 .fs-4 {
-  color: rgba(41, 64, 118, 0.7098039216);
+  color: #294076;
 }
 
 .p_gray600 {
@@ -62,7 +62,7 @@ p,
   transition: 0.3s;
 }
 .cardBtn:hover {
-  background-color: rgba(41, 64, 118, 0.7098039216);
+  background-color: #294076;
   border: 2 #294076 solid;
   border-color: #294076;
   color: #fff;
