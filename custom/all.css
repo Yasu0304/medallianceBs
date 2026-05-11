@@ -35,15 +35,23 @@
 
 p,
 .list-group-item {
-  color: #6c757d;
+  color: #343a40;
+}
+
+.fs-2 {
+  color: #596794;
 }
 
 .fs-4 {
-  color: #294076;
+  color: rgba(41, 64, 118, 0.7098039216);
 }
 
 .p_gray600 {
   color: #6c757d;
+}
+
+.p_gray800 {
+  color: #343a40;
 }
 
 .cardAni {
@@ -62,14 +70,14 @@ p,
   transition: 0.3s;
 }
 .cardBtn:hover {
-  background-color: #294076;
+  background-color: rgba(41, 64, 118, 0.7098039216);
   border: 2 #294076 solid;
   border-color: #294076;
   color: #fff;
 }
 
 .p_navLink {
-  color: #00b0c1;
+  color: #0595be;
 }
 
 .navbarImg {
@@ -84,27 +92,27 @@ p,
 }
 
 .dropdown-menu .dropdown-item {
-  color: #6c757d;
+  color: #343a40;
   font-weight: 300;
 }
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item :active {
   background-color: #fff;
-  color: #00b0c1;
+  color: #0595be;
 }
 .dropdown-menu .dropdown-item.dropdown-item_none:hover,
 .dropdown-menu .dropdown-item.dropdown-item_none :active {
   background-color: #fff;
-  color: #6c757d;
+  color: #343a40;
   font-weight: 300;
 }
 
 .nav-item:active,
 .nav-item :hover {
-  background-color: #00b0c1;
+  background-color: #0595be;
 }
 .nav-item .active {
-  background-color: #00b0c1;
+  background-color: #0595be;
 }
 
 .nav-item.nav-item_none:active,
@@ -132,7 +140,7 @@ p,
   background: transparent;
   display: flex;
   align-items: center;
-  color: white;
+  color: #fff;
   font-weight: 500;
   margin: 0;
 }

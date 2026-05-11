@@ -1,6 +1,6 @@
-@import "base";
-@import "components";
-@import "media";
+@use 'base' as *;
+@use 'media' as *;
+@use 'components' as *;
 
 .heroPic {
   min-height: 250px;

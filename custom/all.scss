@@ -46,15 +46,23 @@
 
 p,
 .list-group-item {
-  color: $meda-bk-60;
+  color: $meda-bk-80;
+}
+
+.fs-2 {
+  color: $medwar;
 }
 
 .fs-4 {
-  color: $medapri-70;
+  color: $medpri-70;
 }
 
 .p_gray600 {
   color: $meda-bk-60;
+}
+
+.p_gray800 {
+  color: $meda-bk-80;
 }
 
 .cardAni {
@@ -72,16 +80,16 @@ p,
   color: $meda-bk-00;
   transition: 0.3s;
   &:hover {
-    background-color: $medapri-70;
-    border: 2 $medapri solid;
-    border-color: $medapri;
+    background-color: $medpri-70;
+    border: 2 $medpri solid;
+    border-color: $medpri;
     color: $meda-bk-00;
   }
 }
 
 // 導航列
 .p_navLink {
-  color: $medasec;
+  color: $medsec;
 }
 
 .navbarImg {
@@ -95,12 +103,12 @@ p,
 
 .dropdown-menu {
   .dropdown-item {
-    color: $meda-bk-60;
+    color: $meda-bk-80;
     font-weight: 300;
     &:hover,
     :active {
       background-color: $meda-bk-00;
-      color: $medasec;
+      color: $medsec;
     }
   }
 
@@ -123,7 +131,7 @@ p,
     &:hover,
     :active {
       background-color: $meda-bk-00;
-      color: $meda-bk-60;
+      color: $meda-bk-80;
       font-weight: 300;
     }
   }
@@ -132,17 +140,17 @@ p,
 .nav-item {
   &:active,
   :hover {
-    background-color: $medasec;
+    background-color: $medsec;
   }
   .active {
-    background-color: $medasec;
+    background-color: $medsec;
   }
 }
 
 .nav-item.nav-item_none {
   &:active,
   :hover {
-    background-color: $medapri;
+    background-color: $medpri;
     color: $meda-bk-00;
   }
 }
@@ -163,7 +171,7 @@ p,
   background: transparent;
   display: flex;
   align-items: center;
-  color: white;
+  color: $meda-bk-00;
   font-weight: 500;
   margin: 0;
 }
@@ -182,7 +190,7 @@ p,
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #294076b5;
+  background-color: $medpri-70;
   backdrop-filter: blur(10px);
   padding: 24px 12px;
   border-radius: 12px;
@@ -192,8 +200,8 @@ p,
     color: $meda-bk-00;
   }
   &:hover {
-    // background-color: #29407625;
-    // border: 1px $medapri solid;
+    // background-color: $medpri-70;
+    // border: 1px $medpri solid;
     border-radius: 12px;
     transform: translateY(-6px);
   }
@@ -201,7 +209,7 @@ p,
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    background-color: $medapri;
+    background-color: $medpri;
     margin-bottom: 24px;
   }
 }

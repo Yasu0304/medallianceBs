@@ -1,6 +1,6 @@
-@use "base" as *;
-@use "media" as *;
-@use "components" as *;
+@use 'base' as *;
+@use 'media' as *;
+@use 'components' as *;
 
 // html {
 //   scroll-padding-top: 200px; //header 高度
@@ -46,7 +46,7 @@
 }
 
 .calloutPriamry70 {
-  @include callout($medasec, #ffffff00, $medasec);
+  @include callout($medsec, #ffffff00, $medsec);
 }
 
 .productsCard {

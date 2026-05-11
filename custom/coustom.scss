@@ -6,10 +6,11 @@
 // 2. Include any default variable overrides here
 $font-family-sans-serif: 'Geologica', sans-serif;
 $font-weight-base: 200;
-$primary: #294076;
-$indigo: #0595be;
-$secondary: #00b0c1;
+$primary: #294076; //fs-1
+$secondary: #0595be; //small
 $success: #ff8500;
+$danger: #00b0c1; //fs-5
+$warning: #596794; //fs-2
 $info: #eff4ff;
 // 3. Required
 @import '../node_modules/bootstrap/scss/variables';
