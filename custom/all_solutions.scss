@@ -280,9 +280,8 @@
 
 .contact_bg {
   background-image: none;
-
   @include sm {
-    @include bg-setting(center, center, contain, no-repeat, scroll);
+    @include bg-setting(center, center, cover, no-repeat, scroll);
     background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/contact.webp);
   }
 }
