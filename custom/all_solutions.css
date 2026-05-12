@@ -368,7 +368,7 @@
 }
 @media (min-width: 576px) {
   .contact_bg {
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
