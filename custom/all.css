@@ -35,15 +35,15 @@
 
 p,
 .list-group-item {
-  color: #343a40;
+  color: #6c757d;
 }
 
 .fs-2 {
-  color: #596794;
+  color: #00b0c1;
 }
 
 .fs-4 {
-  color: rgba(41, 64, 118, 0.7098039216);
+  color: #0595be;
 }
 
 .p_gray600 {
@@ -77,7 +77,7 @@ p,
 }
 
 .p_navLink {
-  color: #0595be;
+  color: #00b0c1;
 }
 
 .navbarImg {
@@ -98,7 +98,7 @@ p,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item :active {
   background-color: #fff;
-  color: #0595be;
+  color: #00b0c1;
 }
 .dropdown-menu .dropdown-item.dropdown-item_none:hover,
 .dropdown-menu .dropdown-item.dropdown-item_none :active {
@@ -109,10 +109,10 @@ p,
 
 .nav-item:active,
 .nav-item :hover {
-  background-color: #0595be;
+  background-color: #00b0c1;
 }
 .nav-item .active {
-  background-color: #0595be;
+  background-color: #00b0c1;
 }
 
 .nav-item.nav-item_none:active,

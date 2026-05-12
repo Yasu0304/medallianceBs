@@ -3,15 +3,16 @@
 //$medasec: #00b0c1; //fs-5設定色，同--bs-secondary
 //$medasuc: #ff8500; //同--bs-success
 
-$medpri: #294076; //fs-1 --bs-primary
-$medsec: #0595be; //small --bs-secondary
-$medsuc: #ff8500; //--bs-success
-$meddan: #00b0c1; //fs-5 --bs-danger
-$medwar: #596794; //fs-2 --bs-warning
-$medinfo: #eff4ff;
-$meda-bk-00: #fff;
-$meda-bk-40: #9f9e9f;
-$meda-bk-60: #6c757d;
-$meda-bk-80: #343a40;
+$medpri: #294076; //fs-1 small --bs-primary
+$medsec: #00b0c1; //fs-2 --bs-secondary
+$medsuc: #0595be; //fs-4 --bs-success
+$meddan: #596794; //fs-5_Bold card-title --bs-danger
+$medwar: #ff8500; // --bs-warning
 
-$medpri-70: #294076b5;
+$med-bk-00: #fff;
+$med-bk-40: #9f9e9f;
+$med-bk-60: #6c757d;
+$med-bk-80: #343a40;
+
+$medpri-70: #294076b5; //文章中段背景色  2940768d
+$medlightbg: #f5f9fc; //文章中段背景色、頁腳底色

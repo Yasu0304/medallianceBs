@@ -26,7 +26,7 @@
 }
 
 .lang-banner-inner {
-  background: $meda-bk-00;
+  background: $med-bk-00;
   border-radius: 14px;
   padding: 14px 18px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -46,23 +46,23 @@
 
 p,
 .list-group-item {
-  color: $meda-bk-80;
+  color: $med-bk-60;
 }
 
 .fs-2 {
-  color: $medwar;
+  color: $medsec;
 }
 
 .fs-4 {
-  color: $medpri-70;
+  color: $medsuc;
 }
 
 .p_gray600 {
-  color: $meda-bk-60;
+  color: $med-bk-60;
 }
 
 .p_gray800 {
-  color: $meda-bk-80;
+  color: $med-bk-80;
 }
 
 .cardAni {
@@ -75,15 +75,15 @@ p,
 .cardBtn {
   background-color: rgba(255, 255, 255, 0.336);
   border-radius: 999px;
-  border: 2 $meda-bk-00 solid;
-  border-color: $meda-bk-00;
-  color: $meda-bk-00;
+  border: 2 $med-bk-00 solid;
+  border-color: $med-bk-00;
+  color: $med-bk-00;
   transition: 0.3s;
   &:hover {
     background-color: $medpri-70;
     border: 2 $medpri solid;
     border-color: $medpri;
-    color: $meda-bk-00;
+    color: $med-bk-00;
   }
 }
 
@@ -103,11 +103,11 @@ p,
 
 .dropdown-menu {
   .dropdown-item {
-    color: $meda-bk-80;
+    color: $med-bk-80;
     font-weight: 300;
     &:hover,
     :active {
-      background-color: $meda-bk-00;
+      background-color: $med-bk-00;
       color: $medsec;
     }
   }
@@ -122,7 +122,7 @@ p,
   //   :active {
   //     .bi {
   //       margin-right: 0rem;
-  //       color: $medasec;
+  //       color: $medsec;
   //     }
   //   }
   // }
@@ -130,8 +130,8 @@ p,
   .dropdown-item.dropdown-item_none {
     &:hover,
     :active {
-      background-color: $meda-bk-00;
-      color: $meda-bk-80;
+      background-color: $med-bk-00;
+      color: $med-bk-80;
       font-weight: 300;
     }
   }
@@ -151,7 +151,7 @@ p,
   &:active,
   :hover {
     background-color: $medpri;
-    color: $meda-bk-00;
+    color: $med-bk-00;
   }
 }
 
@@ -171,7 +171,7 @@ p,
   background: transparent;
   display: flex;
   align-items: center;
-  color: $meda-bk-00;
+  color: $med-bk-00;
   font-weight: 500;
   margin: 0;
 }
@@ -197,7 +197,7 @@ p,
   // border: 1px rgba(163, 163, 163, 0) solid;
   transition: 0.7s;
   p {
-    color: $meda-bk-00;
+    color: $med-bk-00;
   }
   &:hover {
     // background-color: $medpri-70;
