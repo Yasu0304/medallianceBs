@@ -80,7 +80,7 @@ p,
   color: $med-bk-00;
   transition: 0.3s;
   &:hover {
-    background-color: $medpri-70;
+    background-color: $medpri70;
     border: 2 $medpri solid;
     border-color: $medpri;
     color: $med-bk-00;
@@ -176,6 +176,11 @@ p,
   margin: 0;
 }
 
+.heroPic {
+  min-height: 350px;
+  @include bg-setting(40%, center, cover, no-repeat, scroll);
+}
+
 .footerLogo {
   max-width: auto;
   height: 3vh;
@@ -190,7 +195,7 @@ p,
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: $medpri-70;
+  background-color: $medpri70;
   backdrop-filter: blur(10px);
   padding: 24px 12px;
   border-radius: 12px;
@@ -200,7 +205,7 @@ p,
     color: $med-bk-00;
   }
   &:hover {
-    // background-color: $medpri-70;
+    // background-color: $medpri70;
     // border: 1px $medpri solid;
     border-radius: 12px;
     transform: translateY(-6px);
@@ -212,4 +217,19 @@ p,
     background-color: $medpri;
     margin-bottom: 24px;
   }
+}
+
+.sectionPadding {
+  padding: 72px 0;
+  @include sm {
+    padding: 128px 0;
+  }
+}
+
+.primary70-bg {
+  background-color: $medpri70;
+}
+
+.light-bg {
+  background-color: $medlightbg;
 }

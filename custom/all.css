@@ -145,6 +145,15 @@ p,
   margin: 0;
 }
 
+.heroPic {
+  min-height: 350px;
+  background-position: 40% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
 .footerLogo {
   max-width: auto;
   height: 3vh;
@@ -179,4 +188,21 @@ p,
   border-radius: 100%;
   background-color: #294076;
   margin-bottom: 24px;
+}
+
+.sectionPadding {
+  padding: 72px 0;
+}
+@media (min-width: 576px) {
+  .sectionPadding {
+    padding: 128px 0;
+  }
+}
+
+.primary70-bg {
+  background-color: rgba(41, 64, 118, 0.7098039216);
+}
+
+.light-bg {
+  background-color: #f5f9fc;
 }/*# sourceMappingURL=all.css.map */
