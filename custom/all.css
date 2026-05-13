@@ -213,4 +213,24 @@ p,
 
 .light-bg {
   background-color: #f5f9fc;
+}
+
+.contactHero {
+  min-height: 350px;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.contactLogo {
+  padding-top: 59.36%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
 }/*# sourceMappingURL=all.css.map */
