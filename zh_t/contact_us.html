@@ -227,7 +227,7 @@
         </div>
       </div>
 
-      <section class="sectionPadding">
+      <section class="sectionPadding top">
         <div class="container-xxl">
           <div class="row justify-content-center">
             <div class="col-12 h-100">
@@ -253,10 +253,15 @@
 
             <div class="col-12 col-sm-5 h-100">
               <form action="https://formspree.io/f/mrejrpkj" method="POST">
-                <div class="row rounded-4 py-4 px-2" style="background-color: #2940768d; backdrop-filter: blur(10px)">
+                <div class="row rounded-4 py-4 px-2 priBlur-bg">
                   <div class="col-6 mb-3">
                     <label for="name" class="form-label text-white fw-bold">姓名</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="請輸入您的姓名" />
+                  </div>
+
+                  <div class="col-6 mb-3">
+                    <label for="email" class="form-label text-white fw-bold">電子信箱</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@mail.com" />
                   </div>
 
                   <div class="col-6 mb-3">
@@ -267,11 +272,6 @@
                   <div class="col-6 mb-3">
                     <label for="country" class="form-label text-white fw-bold">所在國家</label>
                     <input type="text" class="form-control" id="country" name="country" placeholder="請輸入您的國家" />
-                  </div>
-
-                  <div class="col-6 mb-3">
-                    <label for="email" class="form-label text-white fw-bold">電子信箱</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="name@mail.com" />
                   </div>
 
                   <div class="col-0 mb-3">

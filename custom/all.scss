@@ -223,11 +223,19 @@ p,
   padding: 72px 0;
   @include sm {
     padding: 128px 0;
+    &.top {
+      padding-top: 72px;
+      padding-bottom: 128px;
+    }
   }
 }
 
 .primary70-bg {
   background-color: $medpri70;
+}
+
+.priBlur-bg {
+  background-color: $medBlur;
 }
 
 .light-bg {

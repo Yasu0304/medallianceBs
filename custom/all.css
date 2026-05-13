@@ -197,10 +197,18 @@ p,
   .sectionPadding {
     padding: 128px 0;
   }
+  .sectionPadding.top {
+    padding-top: 72px;
+    padding-bottom: 128px;
+  }
 }
 
 .primary70-bg {
   background-color: rgba(41, 64, 118, 0.7098039216);
+}
+
+.priBlur-bg {
+  background-color: rgba(41, 64, 118, 0.5529411765);
 }
 
 .light-bg {
