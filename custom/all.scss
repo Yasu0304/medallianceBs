@@ -190,35 +190,6 @@ p,
   }
 }
 
-// chooseLang
-.langCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: $medpri70;
-  backdrop-filter: blur(10px);
-  padding: 24px 12px;
-  border-radius: 12px;
-  // border: 1px rgba(163, 163, 163, 0) solid;
-  transition: 0.7s;
-  p {
-    color: $med-bk-00;
-  }
-  &:hover {
-    // background-color: $medpri70;
-    // border: 1px $medpri solid;
-    border-radius: 12px;
-    transform: translateY(-6px);
-  }
-  .langIcon {
-    height: 70px;
-    width: 70px;
-    border-radius: 100%;
-    background-color: $medpri;
-    margin-bottom: 24px;
-  }
-}
-
 .sectionPadding {
   padding: 72px 0;
   @include sm {

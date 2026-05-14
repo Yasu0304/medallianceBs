@@ -165,31 +165,6 @@ p,
   }
 }
 
-.langCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: rgba(41, 64, 118, 0.7098039216);
-  backdrop-filter: blur(10px);
-  padding: 24px 12px;
-  border-radius: 12px;
-  transition: 0.7s;
-}
-.langCard p {
-  color: #fff;
-}
-.langCard:hover {
-  border-radius: 12px;
-  transform: translateY(-6px);
-}
-.langCard .langIcon {
-  height: 70px;
-  width: 70px;
-  border-radius: 100%;
-  background-color: #294076;
-  margin-bottom: 24px;
-}
-
 .sectionPadding {
   padding: 72px 0;
 }
