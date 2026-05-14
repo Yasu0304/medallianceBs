@@ -1,0 +1,19 @@
+.contactHero {
+  min-height: 350px;
+  background-position: 40% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.contactCard {
+  padding-top: 59.36%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}/*# sourceMappingURL=contact.css.map */

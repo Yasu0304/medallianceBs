@@ -230,6 +230,8 @@ p,
   }
 }
 
+//各底色
+//priBlur-bg:contactUs
 .primary70-bg {
   background-color: $medpri70;
 }
@@ -240,13 +242,4 @@ p,
 
 .light-bg {
   background-color: $medlightbg;
-}
-
-.contactHero {
-  min-height: 350px;
-  @include bg-setting(bottom, center, cover, no-repeat, scroll);
-}
-.contactLogo {
-  @include card(59.36%);
-  @include bg-setting(center, center, cover, no-repeat, scroll);
 }

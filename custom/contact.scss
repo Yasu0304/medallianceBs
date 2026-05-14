@@ -1,0 +1,13 @@
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
+
+.contactHero {
+  min-height: 350px;
+  @include bg-setting(40%, center, cover, no-repeat, scroll);
+}
+
+.contactCard {
+  @include card(59.36%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+}
