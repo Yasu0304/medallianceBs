@@ -3,8 +3,11 @@
 @use 'media' as *;
 
 .contactHero {
-  min-height: 350px;
+  min-height: 200px;
   @include bg-setting(40%, center, cover, no-repeat, scroll);
+  @include sm {
+    min-height: 350px;
+  }
 }
 
 .contactCard {
