@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant-TW">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,18 +12,18 @@
     <meta name="description" content="#" />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://medalliance.com.tw/zh_t/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" />
+    <link rel="canonical" href="https://medalliance.com.tw/zh_t/products/medical_protective_mask_series.html" />
 
     <!-- hreflang -->
-    <link rel="alternate" hreflang="zh-TW" href="https://medalliance.com.tw/zh_t/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" />
-    <link rel="alternate" hreflang="en" href="https://medalliance.com.tw/en/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" />
-    <link rel="alternate" hreflang="x-default" href="https://medalliance.com.tw/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" />
+    <link rel="alternate" hreflang="zh-TW" href="https://medalliance.com.tw/zh_t/products/medical_protective_mask_series.html" />
+    <link rel="alternate" hreflang="en" href="https://medalliance.com.tw/en/products/medical_protective_mask_series.html" />
+    <link rel="alternate" hreflang="x-default" href="https://medalliance.com.tw/products/medical_protective_mask_series.html" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="#" />
     <meta property="og:description" content="#" />
-    <meta property="og:url" content="https://medalliance.com.tw/zh_t/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" />
+    <meta property="og:url" content="https://medalliance.com.tw/zh_t/products/medical_protective_mask_series.html" />
     <meta property="og:image" content="https://medalliance.com.tw/images/medalliance-og.jpg" />
 
     <!-- Favicon -->
@@ -32,9 +32,10 @@
     <!-- CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/coustom.css" />
     <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/all.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/all_solutions.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/products.css" />
 
     <!-- JS -->
     <!-- Google Tag Manager -->
@@ -68,7 +69,6 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8ZT55P5" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
     <header class="sticky-top">
       <nav id="navbarEquipments" class="navbar navbar-expand-lg bg-primary shadow-sm py-0">
         <a class="navbar-brand px-3" href="https://medalliance.com.tw/zh_t/index.html">
@@ -77,7 +77,6 @@
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="bi bi-list text-white fs-2"></i></span>
         </button>
-
         <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-sm-center">
             <li class="nav-item py-0 dropdown">
@@ -123,7 +122,7 @@
               </ul>
             </li>
             <li class="nav-item py-0 dropdown">
-              <a class="nav-link p-3 dropdown-toggle text-white fw-medium active" href="#" id="navbarDropdownSolutions" role="button" data-bs-toggle="dropdown" aria-expanded="false">解決方案</a>
+              <a class="nav-link p-3 dropdown-toggle text-white fw-medium" href="#" id="navbarDropdownSolutions" role="button" data-bs-toggle="dropdown" aria-expanded="false">解決方案</a>
               <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdownSolutions">
                 <li>
                   <a class="dropdown-item mb-0" href="https://medalliance.com.tw/zh_t/solutions/all_solutions.html">解決方案總覽</a>
@@ -170,33 +169,29 @@
                     智慧監測
                   </a>
                 </li>
-                <li>
-                  <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html">
-                    <i class="bi bi-arrow-right-short"></i>
-                    醫療防護口罩解決方案
-                  </a>
-                </li>
               </ul>
             </li>
             <li class="nav-item py-0">
-              <a class="nav-link text-white fw-medium p-3" href="https://medalliance.com.tw/zh_t/products.html" id="navbarDropdownProducts" role="button">產品</a>
+              <a class="nav-link text-white fw-medium p-3 active" href="https://medalliance.com.tw/zh_t/products.html" id="navbarDropdownProducts" role="button">產品</a>
             </li>
             <li class="nav-item py-0">
               <a class="nav-link text-white fw-medium p-3" href="https://medalliance.com.tw/zh_t/contact_us.html" id="navbarDropdownContactUs" role="button">聯絡我們</a>
             </li>
+
             <button class="flag-btn dropdown-toggle p-3" id="languageMenu" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Select Language">
               <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
             </button>
+
             <!-- 🔽 下拉選單 -->
             <ul class="dropdown-menu dropdown-menu-end bg-white px-1 dropdown-menu_lan border-0" aria-labelledby="languageMenu">
               <li>
-                <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" onclick="localStorage.setItem('lang', 'en')">
+                <a class="dropdown-item mb-1" href="https://medalliance.com.tw/en/products/medical_protective_mask_series.html" onclick="localStorage.setItem('lang', 'en')">
                   <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon" />
                   English
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/solutions/medical_device_solution-as-a-service/medical_protective_mask_solutions.html" onclick="localStorage.setItem('lang', 'zh')">
+                <a class="dropdown-item" href="https://medalliance.com.tw/zh_t/products/medical_protective_mask_series.html" onclick="localStorage.setItem('lang', 'zh')">
                   <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
                   繁體中文
                 </a>
@@ -208,201 +203,226 @@
     </header>
 
     <main class="flex-grow-1">
-      <!-- hero↓ -->
-      <section class="container-fluid heroPic" style="background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp)"></section>
-      <!-- hero↑ -->
-
-      <!-- breadcrumb -->
-      <div class="container-xxl">
-        <div class="row mb-5">
-          <div class="col-12 col-sm-10">
+      <div class="container-xxl mb-5">
+        <div class="row">
+          <div class="col-sm-10 mx-auto">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                   <a href="https://medalliance.com.tw/zh_t/index.html">首頁</a>
                 </li>
                 <li class="breadcrumb-item">
-                  <a href="https://medalliance.com.tw/zh_t/solutions/all_solutions.html">解決方案</a>
+                  <a href="https://medalliance.com.tw/zh_t/products.html">產品</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">醫療防護口罩解決方案</li>
+                <li class="breadcrumb-item">
+                  <a href="#">#</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">醫療防護口罩系列</li>
               </ol>
             </nav>
           </div>
         </div>
       </div>
 
-      <!-- 醫療防護口罩解決方案 -->
-      <section class="sectionPadding top">
-        <div class="container-xxl">
-          <div class="row justify-content-center">
-            <div class="col-12 col-sm-10">
-              <p class="fs-2 fw-bold text-center mb-0">醫療防護口罩解決方案</p>
-              <p class="mb-5 text-primary text-center">
-                <small>從日常臨床防護到高風險醫療場域，提供依場域需求規劃的醫療防護口罩解決方案。</small>
-              </p>
-              <p class="fs-5 text-center lh-lg">鈞聯生醫（MedAlliance）提供以臨床需求為核心的醫療防護口罩解決方案，整合第一級醫療口罩、第二級醫療口罩、綁帶式手術口罩與高防護醫療口罩，協助醫療院所、專業採購單位與通路夥伴，依據不同場域風險、工作流程與防護要求，建立更完整且更有效率的防護配置。相較於單一產品供應，我們更著重於依實際應用情境進行選型建議、配置規劃與導入支援，讓醫療防護更貼近臨床實務。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 核心特色 -->
-      <section class="sectionPadding primary70-bg">
-        <div class="container-xxl">
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <p class="fs-2 fw-bold text-white text-center">核心特色</p>
-            </div>
-            <div class="col-12 col-sm-5 d-flex align-items-start" style="padding: 0 44px">
-              <p class="fs-5 text-white my-0 py-0 lh-lg" style="text-indent: -22px">
-                <i class="bi bi-arrow-right-circle-fill fs-3 text-white" style="text-indent: -10px"></i>
-                整合多層級醫療口罩產品，滿足一般臨床、手術與高風險醫療場域需求
-              </p>
-            </div>
-            <div class="col-12 col-sm-5 d-flex align-items-start" style="padding: 0 44px">
-              <p class="fs-5 text-white my-0 py-0 lh-lg" style="text-indent: -22px">
-                <i class="bi bi-arrow-right-circle-fill fs-3 text-white" style="text-indent: -10px"></i>
-                依防護等級、使用流程與應用情境，提供更有效率的選型與配置建議
-              </p>
-            </div>
-            <div class="col-12 col-sm-5 d-flex align-items-start" style="padding: 0 44px">
-              <p class="fs-5 text-white my-0 py-0 lh-lg" style="text-indent: -22px">
-                <i class="bi bi-arrow-right-circle-fill fs-3 text-white" style="text-indent: -10px"></i>
-                兼顧防護效能、貼合穩定性與長時間舒適度
-                <br />
-                <br />
-              </p>
-            </div>
-            <div class="col-12 col-sm-5 d-flex align-items-start" style="padding: 0 44px">
-              <p class="fs-5 text-white my-0 py-0 lh-lg" style="text-indent: -22px">
-                <i class="bi bi-arrow-right-circle-fill fs-3 text-white" style="text-indent: -10px"></i>
-                支援門診、病房、護理、手術室及高風險區域等多元應用
-                <br />
-                <br />
-              </p>
-            </div>
-            <div class="col-12 col-sm-5 d-flex align-items-start" style="padding: 0 44px">
-              <p class="fs-5 text-white my-0 py-0 lh-lg" style="text-indent: -22px">
-                <i class="bi bi-arrow-right-circle-fill fs-3 text-white" style="text-indent: -10px"></i>
-                透過結構化產品分級，提升醫療院所與採購單位的評估與導入效率
-              </p>
-            </div>
-            <div class="col-12 col-sm-5 d-flex align-items-start" style="padding: 0 44px">
-              <p class="fs-5 text-white my-0 py-0 lh-lg" style="text-indent: -22px">
-                <i class="bi bi-arrow-right-circle-fill fs-3 text-white" style="text-indent: -10px"></i>
-                可依實際需求靈活搭配不同口罩系列，建立完整防護策略
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 場域導向配置 -->
-      <section class="sectionPadding">
-        <div class="container-xxl">
-          <div class="row justify-content-center">
-            <div class="col-12 col-sm-10">
-              <p class="fs-2 fw-bold text-center mb-4">場域導向配置</p>
-              <div class="row row-cols-1 row-cols-sm-2 g-4">
-                <div class="col">
-                  <div class="card h-100 border-0 shadow-sm">
-                    <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/outpatient_care_and_basic_protection.webp" class="card-img-top" alt="一般門診與基礎照護" />
-                    <div class="card-body position-relative">
-                      <div class="position-absolute top-0 start-50 translate-middle fs-5 fw-bold px-3 rounded-pill border border-4 border-white text-white text-center text-sm-start bg-danger">一般門診與基礎照護</div>
-                      <p class="card-text fs-5 pt-3 lh-lg">以第一級醫療口罩為主，著重輕量、透氣與長時間日常使用舒適性，適合作為一般門診與醫療支援區域的基礎防護配置。</p>
-                    </div>
+      <section class="container-xxl mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-4">
+            <div style="max-width: 600px; margin-left: auto">
+              <!-- Swiper -->
+              <div style="--swiper-navigation-color: #294076b5; --swiper-pagination-color: #0f548595" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="#" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100 border-0 shadow-sm">
-                    <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/ward_care_and_routine_clinical_workflows.webp" class="card-img-top" alt="病房與日常臨床照護" />
-                    <div class="card-body position-relative">
-                      <div class="position-absolute top-0 start-50 translate-middle fs-5 fw-bold px-3 rounded-pill border border-4 border-white text-white text-center text-sm-start bg-danger">病房與日常臨床照護</div>
-                      <p class="card-text fs-5 pt-3 lh-lg">以第二級醫療口罩作為進階臨床防護選項，在防護性能與舒適度之間取得平衡，適合病房、護理站與檢查室等日常高頻使用場景。</p>
-                    </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="#" />
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 border-0 shadow-sm">
-                    <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/surgical_and_procedural_environments.webp" class="card-img-top" alt="手術與專業醫療作業" />
-                    <div class="card-body position-relative">
-                      <div class="position-absolute top-0 start-50 translate-middle fs-5 fw-bold px-3 rounded-pill border border-4 border-white text-white text-center text-sm-start bg-danger">手術與專業醫療作業</div>
-                      <p class="card-text fs-5 pt-3 lh-lg">綁帶式手術口罩提供更穩固的固定性與貼合表現，適合手術室、治療室及需長時間穩定配戴的專業醫療場域。</p>
-                    </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 border-0 shadow-sm">
-                    <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/high-risk_healthcare_environments.webp" class="card-img-top" alt="高風險醫療環境" />
-                    <div class="card-body position-relative">
-                      <div class="position-absolute top-0 start-50 translate-middle fs-5 fw-bold px-3 rounded-pill border border-4 border-white text-white text-center text-sm-start bg-danger">高風險醫療環境</div>
-                      <p class="card-text fs-5 pt-3 lh-lg">高防護醫療口罩強調密合性、過濾效率與長時間配戴舒適性，可作為高暴露風險場域的重要防護配置。</p>
-                    </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="#" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- 為臨床場域打造的醫療防護配置方案 -->
-      <section class="sectionPadding light-bg">
-        <div class="container-xxl">
-          <div class="row flex-column flex-sm-row justify-content-center align-items-center">
-            <div class="col-12 col-sm-5">
-              <p class="fs-2 fw-bold mb-0">為臨床場域打造的醫療防護配置方案</p>
-              <p class="mb-5 text-primary">
-                <small>兼顧防護效能、舒適性與多元應用需求，協助建立更完整的防護配置。</small>
-              </p>
-              <p class="fs-5 lh-lg">鈞聯生醫不僅提供多規格醫療防護口罩產品，更協助客戶依實際臨床需求規劃合適的防護組合。從日常照護到高風險場域，我們以場域對應、產品分級與導入效率為核心，幫助客戶建立更完整、更具彈性的醫療防護配置。</p>
-            </div>
-            <div class="col-12 col-sm-5">
-              <div class="row g-0">
-                <div class="col-6">
-                  <div>
-                    <div class="clinicalEnvironments" style="background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/outpatient_clinic.webp)"></div>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div>
-                    <div class="clinicalEnvironments" style="background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/ward_care.webp)"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row g-0">
-                <div class="col-6">
-                  <div>
-                    <div class="clinicalEnvironments" style="background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/basic_protection.webp)"></div>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div>
-                    <div class="clinicalEnvironments" style="background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/surgical.webp)"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-12 col-sm-6">
+            <p class="fs-2 fw-bold mb-0">醫療防護口罩系列</p>
+            <p class="fs-5">從日常臨床防護到高風險醫療場域，提供對應不同需求的醫療防護口罩產品方案。​</p>
+            <!-- <div class="mb-5">
+              <img src="https://medalliance.com.tw/images/index/FDA.svg" alt="FDA" />
+              <img src="https://medalliance.com.tw/images/index/CE.svg" alt="CE" />
+              <img src="https://medalliance.com.tw/images/index/ISO13485.svg" alt="ISO13485" />
+              <img src="https://medalliance.com.tw/images/index/QMSorGMP.svg" alt="GMP" />
+              <img src="https://medalliance.com.tw/images/index/CFDA.svg" alt="CFDA" />
+            </div> -->
+            <p class="fs-4 fw-bold mb-0">Feature</p>
+            <ul class="list-group list-group-flush mb-5 fs-5 text-wrap">
+              <li class="list-group-item" style="text-indent: -0.5em" data-aos="fade-up" data-aos-duration="2600">
+                <i class="bi bi-dot"></i>
+                涵蓋第一級醫療口罩、第二級醫療口罩、綁帶式手術口罩與高防護醫療口罩
+              </li>
+              <li class="list-group-item" style="text-indent: -0.5em" data-aos="fade-up" data-aos-duration="2500">
+                <i class="bi bi-dot"></i>
+                依不同臨床防護等級與使用情境，快速完成產品選型
+              </li>
+              <li class="list-group-item" style="text-indent: -0.5em" data-aos="fade-up" data-aos-duration="2400">
+                <i class="bi bi-dot"></i>
+                兼顧防護效能、配戴穩定性與長時間舒適度
+              </li>
+              <li class="list-group-item" style="text-indent: -0.5em" data-aos="fade-up" data-aos-duration="2300">
+                <i class="bi bi-dot"></i>
+                適用於門診、病房照護、手術室及高風險醫療場域
+              </li>
+              <li class="list-group-item" style="text-indent: -0.5em" data-aos="fade-up" data-aos-duration="2200">
+                <i class="bi bi-dot"></i>
+                結構化產品分級，提升醫療院所與採購單位評估效率
+              </li>
+              <li class="list-group-item" style="text-indent: -0.5em" data-aos="fade-up" data-aos-duration="2100">
+                <i class="bi bi-dot"></i>
+                可依實際需求搭配不同口罩系列，建立完整防護配置
+              </li>
+            </ul>
+            <!-- <a class="btn btn-primary fw-bold col-12 col-sm-5 me-1 mb-3 mb-sm-0" href="#" download="#">Download</a>
+            <a class="btn btn-primary fw-bold col-12 col-sm-5" href="mailto:support@medalliance.com.tw" role="button">Contact Us</a> -->
           </div>
         </div>
       </section>
 
-      <!-- 快速比較 -->
-      <section class="sectionPadding">
-        <div class="container-xxl">
-          <div class="row justify-content-center">
-            <div class="col-12 col-sm-10">
-              <p class="fs-2 fw-bold text-center mb-0">快速比較各類醫療口罩</p>
-              <p class="mb-5 text-primary text-center">
-                <small>快速掌握不同口罩系列的特色與建議使用場域。</small>
-              </p>
-              <p class="fs-5 text-center mb-5 lh-lg">透過清楚的產品比較表，您可快速了解不同醫療口罩系列在防護等級、配戴方式、主要特色與建議應用上的差異，協助更有效率地完成產品評估與選型。</p>
-              <div class="row row-cols-2 row-cols-sm-4 g-0">
+      <section>
+        <ul class="nav nav-underline mb-3 bg-secondary justify-content-center align-items-end productsTab" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active text-white px-2" id="pills-description-tab" data-bs-toggle="pill" data-bs-target="#pills-description" type="button" role="tab" aria-controls="pills-description" aria-selected="true">Description</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-white px-2" id="pills-application-tab" data-bs-toggle="pill" data-bs-target="#pills-application" type="button" role="tab" aria-controls="pills-application" aria-selected="false">Application</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-white px-2" id="pills-specification-tab" data-bs-toggle="pill" data-bs-target="#pills-specification" type="button" role="tab" aria-controls="pills-specification" aria-selected="false">Specification</button>
+          </li>
+        </ul>
+
+        <div class="tab-content mb-5" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab" tabindex="0">
+            <div class="container-xxl">
+              <div class="row justify-content-center">
+                <div class="col-sm-10 mx-auto">
+                  <p class="fs-5">鈞聯生醫提供多款醫療防護口罩系列，涵蓋一般臨床使用、專業手術應用與高防護需求場域，讓使用者能依據工作流程與防護需求，更有效率地完成選型與導入。</p>
+                </div>
+                <div class="col-sm-10 mx-auto">
+                  <div class="row row-cols-1 row-cols-sm-2 g-0">
+                    <div class="col">
+                      <div class="card h-100 border-0">
+                        <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/level_1_medical_masks.webp" class="card-img-top" alt="第一級醫療口罩" />
+                        <div class="card-body">
+                          <p class="fs-5 fw-bold text-danger text-center">第一級醫療口罩</p>
+                          <p class="fs-5">適用於一般醫療環境與基礎防護需求，強調輕量透氣與長時間配戴舒適度，適合門診、一般照護流程及醫療支援區域使用。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 border-0">
+                        <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/level_2_medical_masks.webp" class="card-img-top" alt="第二級醫療口罩" />
+                        <div class="card-body">
+                          <p class="fs-5 fw-bold text-danger text-center">第二級醫療口罩</p>
+                          <p class="fs-5">針對較高飛沫暴露風險與日常臨床照護需求而設計，在防護效能與舒適度之間取得良好平衡，適用於病房、護理站、檢查室及一般醫院臨床環境。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 border-0">
+                        <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/tie-on_surgical_masks.webp" class="card-img-top" alt="綁帶式手術口罩" />
+                        <div class="card-body">
+                          <p class="fs-5 fw-bold text-danger text-center">綁帶式手術口罩</p>
+                          <p class="fs-5">採用穩定固定設計，適合對貼合度與配戴穩定性要求較高的醫療應用情境，可在長時間配戴下維持舒適與穩定，適用於手術室、治療室及各類專業醫療作業環境。</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 border-0">
+                        <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/advanced_protection_medical_masks.webp" class="card-img-top" alt="高防護醫療口罩" />
+                        <div class="card-body">
+                          <p class="fs-5 fw-bold text-danger text-center">高防護醫療口罩</p>
+                          <p class="fs-5">適用於高暴露風險或對呼吸防護有更高要求的專業醫療場域，設計重視密合性、過濾效率與長時間配戴舒適度，可作為高風險環境中的重要防護選擇。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-10 mx-auto">
+                  <p class="fs-5">如需了解更多產品資訊或洽詢合作，歡迎與我們聯繫。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-application" role="tabpanel" aria-labelledby="pills-application-tab" tabindex="0">
+            <div class="container-xxl">
+              <div class="row">
+                <div class="col-sm-10 mx-auto">
+                  <ul class="list-group list-group-flush mb-5">
+                    <li class="list-group-item fs-5" style="text-indent: -0.5em">
+                      <i class="bi bi-dot"></i>
+                      一般門診
+                    </li>
+                    <li class="list-group-item fs-5" style="text-indent: -0.5em">
+                      <i class="bi bi-dot"></i>
+                      病房照護
+                    </li>
+                    <li class="list-group-item fs-5" style="text-indent: -0.5em">
+                      <i class="bi bi-dot"></i>
+                      護理站作業
+                    </li>
+                    <li class="list-group-item fs-5" style="text-indent: -0.5em">
+                      <i class="bi bi-dot"></i>
+                      檢查與治療空間
+                    </li>
+                    <li class="list-group-item fs-5" style="text-indent: -0.5em">
+                      <i class="bi bi-dot"></i>
+                      手術室
+                    </li>
+                    <li class="list-group-item fs-5" style="text-indent: -0.5em">
+                      <i class="bi bi-dot"></i>
+                      高風險醫療區域
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-specification" role="tabpanel" aria-labelledby="pills-specification-tab" tabindex="0">
+            <div class="container-xxl">
+              <div class="row row-cols-1 row-cols-sm-4 g-0">
                 <div class="col">
                   <div class="card h-100 border-0">
                     <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/level_1_medical_masks.webp" class="card-img-top" alt="第一級醫療口罩" />
                     <div class="card-body">
-                      <p class="fs-5 fw-bold text-danger text-center mb-5">第一級醫療口罩</p>
+                      <p class="fs-5 fw-bold text-danger text-center mb-3">第一級醫療口罩</p>
                     </div>
                     <div class="card-footer bg-white border-0">
                       <p class="fs-5 mb-0">防護等級</p>
@@ -428,7 +448,7 @@
                   <div class="card h-100 border-0">
                     <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/level_2_medical_masks.webp" class="card-img-top" alt="第二級醫療口罩" />
                     <div class="card-body">
-                      <p class="fs-5 fw-bold text-danger text-center mb-5">第二級醫療口罩</p>
+                      <p class="fs-5 fw-bold text-danger text-center mb-3">第二級醫療口罩</p>
                     </div>
                     <div class="card-footer bg-white border-0">
                       <p class="fs-5 mb-0">防護等級</p>
@@ -454,7 +474,7 @@
                   <div class="card h-100 border-0">
                     <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/tie-on_surgical_masks.webp" class="card-img-top" alt="綁帶式手術口罩" />
                     <div class="card-body">
-                      <p class="fs-5 fw-bold text-danger text-center mb-5">綁帶式手術口罩</p>
+                      <p class="fs-5 fw-bold text-danger text-center mb-3">綁帶式手術口罩</p>
                     </div>
                     <div class="card-footer bg-white border-0">
                       <p class="fs-5 mb-0">防護等級</p>
@@ -507,92 +527,10 @@
           </div>
         </div>
       </section>
-
-      <!-- 穩定品質 -->
-      <section class="sectionPadding consistentQuality_bg">
-        <div class="container-xxl">
-          <div class="row justify-content-center py-5" style="background-color: #2940768d; backdrop-filter: blur(10px)">
-            <div class="col-12 col-sm-10">
-              <p class="fs-2 fw-bold text-center text-white mb-0">穩定品質，支援專業醫療防護導入</p>
-              <p class="text-center text-white mb-5">
-                <small>以安全、穩定與實用為核心，提供符合專業需求的醫療口罩產品。</small>
-              </p>
-              <p class="fs-5 text-white text-center lh-lg">鈞聯生醫重視產品品質、配戴體驗與應用可靠性，致力於提供符合專業需求的醫療口罩產品與配置方案。從產品規劃、品質管理到防護導入評估，我們持續以安全、穩定與實用為核心，協助客戶在不同醫療場域中建立更完善的防護機制。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 尋找方案 -->
-      <section class="sectionPadding">
-        <div class="container-xxl">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-sm-5">
-              <img src="https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/mask_solution.webp" alt="尋找適合的醫療防護口罩解決方案？" class="img-fluid" />
-            </div>
-            <div class="col-12 col-sm-5">
-              <p class="fs-2 text-secondary fw-bold mb-0">尋找適合的醫療防護口罩解決方案？</p>
-              <p class="text-primary mb-5">
-                <small>依照不同臨床需求與使用場域，快速找到合適的產品組合。</small>
-              </p>
-              <p class="fs-5 mb-5 lh-lg">無論您是醫療院所、經銷通路或企業採購單位，鈞聯生醫都能依據您的使用場域、防護需求與導入目標，提供合適的口罩產品建議與配置支援，協助您更有效率地完成評估、選型與導入。</p>
-              <a href="#" class="btn btn-primary col-12">了解更多</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 聯絡我們 -->
-      <!-- <div class="contact_bg" style="padding: 0 0 72px 0; margin: 0 -12px">
-          <div class="container-xxl">
-            <div class="row justify-content-center">
-              <div class="col-12 col-sm-6">
-                <p class="fs-2 fw-bold text-center text-secondary mb-3">聯絡我們</p>
-                <form action="https://formspree.io/f/mrejrpkj" method="POST">
-                  <div class="row rounded-4 py-4 px-2" style="background-color: #2940768d; backdrop-filter: blur(10px)">
-                    <div class="col-6 mb-3">
-                      <label for="name" class="form-label text-white fw-bold">姓名</label>
-                      <input type="text" class="form-control" id="name" name="name" placeholder="請輸入您的姓名" />
-                    </div>
-
-                    <div class="col-6 mb-3">
-                      <label for="company" class="form-label text-white fw-bold">公司行號</label>
-                      <input type="text" class="form-control" id="company" name="company" placeholder="請輸入您的公司行號" />
-                    </div>
-
-                    <div class="col-6 mb-3">
-                      <label for="country" class="form-label text-white fw-bold">所在國家</label>
-                      <input type="text" class="form-control" id="country" name="country" placeholder="請輸入您的國家" />
-                    </div>
-
-                    <div class="col-6 mb-3">
-                      <label for="email" class="form-label text-white fw-bold">電子信箱</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="name@mail.com" />
-                    </div>
-
-                    <div class="col-0 mb-3">
-                      <label for="subject" class="form-label text-white fw-bold">主旨</label>
-                      <input type="text" class="form-control" id="subject" name="subject" placeholder="請輸入主旨" />
-                    </div>
-
-                    <div class="col-12 mb-3">
-                      <label for="message" class="form-label text-white fw-bold">留言</label>
-                      <textarea class="form-control" id="message" name="message" rows="3" placeholder="請輸入您的訊息或意見"></textarea>
-                    </div>
-
-                    <div class="col-12 py-3">
-                      <button type="submit" class="btn btn-primary col-12">傳送訊息</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div> -->
     </main>
 
     <!-- footer↓  -->
-    <footer class="container-fluid p-0 light-bg">
+    <footer class="light-bg">
       <div class="container-xxl py-3">
         <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-end">
           <div class="d-flex flex-sm-row align-items-sm-end flex-column justify-content-center text-center text-sm-start mb-3 mb-sm-0">
@@ -617,14 +555,98 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid p-0 bg-secondary py-2 align-items-stretch">
+      <div class="container-fluid bg-secondary py-2">
         <p class="text-center text-white m-0">Copyright © 2023 Medalliance All rights reserved.</p>
       </div>
     </footer>
     <!-- footer↑  -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://medalliance.com.tw/custom/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+        loop: true
+      })
+      var swiper2 = new Swiper('.mySwiper2', {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+        thumbs: {
+          swiper: swiper
+        }
+      })
+    </script>
     <script src="https://medalliance.com.tw/custom/js/lang.js"></script>
   </body>
+  <style>
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .mySwiper2 {
+      height: 80%;
+      width: 100%;
+    }
+
+    .mySwiper {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .mySwiper .swiper-slide {
+      width: 25%;
+      height: 100%;
+      opacity: 0.4;
+    }
+
+    .mySwiper .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
 </html>

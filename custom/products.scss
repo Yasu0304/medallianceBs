@@ -6,23 +6,18 @@
 //   scroll-padding-top: 200px; //header 高度
 // }
 
-.heroPic {
-  min-height: 250px;
-  @include bg-setting(center, center, cover, no-repeat, scroll);
+.productsPt {
+  overflow: hidden;
+  padding-top: 93px;
+
+  @include sm {
+    padding-top: 119px;
+  }
+
+  @include md {
+    padding-top: 109px;
+  }
 }
-
-// .productsPt {
-//   overflow: hidden;
-//   padding-top: 93px;
-
-//   @include sm {
-//     padding-top: 119px;
-//   }
-
-//   @include md {
-//     padding-top: 109px;
-//   }
-// }
 
 .productsTab {
   z-index: 2;
@@ -46,7 +41,7 @@
 }
 
 .calloutPriamry70 {
-  @include callout($medsec, #ffffff00, $medsec);
+  @include callout($meddan, #ffffff00, $meddan);
 }
 
 .productsCard {

@@ -31,9 +31,9 @@
     <!-- CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/custom/coustom.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/custom/all.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/custom/products.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/coustom.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/all.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/products.css" />
 
     <!-- JS -->
     <!-- Google Tag Manager -->
@@ -63,12 +63,12 @@
     </script>
   </head>
 
-  <body style="display: flex; flex-direction: column">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8ZT55P5" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1">
-      <nav id="navbarEquipments" class="navbar navbar-expand-lg bg-primary sticky-top shadow-sm py-0">
+    <header class="fixed-top">
+      <nav id="navbarEquipments" class="navbar navbar-expand-lg bg-primary shadow-sm py-0">
         <div class="container-fluid py-0">
           <a class="navbar-brand py-sm-0 py-3" href="https://medalliance.com.tw/zh_t/index.html">
             <img src="https://medalliance.com.tw/images/medalliance-row-w.svg" class="navbarImg" alt="產品總覽 | 鈞聯生醫 MedAlliance：實現智慧科技醫療布局的全方位產品方案" />
@@ -80,8 +80,8 @@
           <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-sm-center">
               <li class="nav-item py-0 dropdown">
-                <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">關於我們</a>
-                <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdown">
+                <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">關於我們</a>
+                <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdownAbout">
                   <li>
                     <a class="dropdown-item mb-0" href="https://medalliance.com.tw/zh_t/about/all_news.html">最新消息</a>
                   </li>
@@ -94,8 +94,8 @@
                 </ul>
               </li>
               <li class="nav-item py-0 dropdown">
-                <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">專業服務</a>
-                <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdown">
+                <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdownServices" role="button" data-bs-toggle="dropdown" aria-expanded="false">專業服務</a>
+                <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdownServices">
                   <li>
                     <a class="dropdown-item mb-0" href="https://medalliance.com.tw/zh_t/services/all_services.html">服務一覽</a>
                   </li>
@@ -122,8 +122,8 @@
                 </ul>
               </li>
               <li class="nav-item py-0 dropdown">
-                <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">解決方案</a>
-                <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdown">
+                <a class="nav-link p-3 dropdown-toggle text-white" href="#" id="navbarDropdownSolutions" role="button" data-bs-toggle="dropdown" aria-expanded="false">解決方案</a>
+                <ul class="dropdown-menu dropdown-menu-end p-2 bg-white" aria-labelledby="navbarDropdownSolutions">
                   <li>
                     <a class="dropdown-item mb-0" href="https://medalliance.com.tw/zh_t/solutions/all_solutions.html">解決方案總覽</a>
                   </li>
@@ -172,7 +172,7 @@
                 </ul>
               </li>
               <li class="nav-item py-0">
-                <a class="nav-link text-white p-3 active" href="https://medalliance.com.tw/zh_t/products.html" id="navbarDropdown" role="button">產品</a>
+                <a class="nav-link text-white p-3 active" href="https://medalliance.com.tw/zh_t/products.html" id="navbarDropdownProducts" role="button">產品</a>
               </li>
               <button class="flag-btn dropdown-toggle p-3" id="languageMenu" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Select Language">
                 <img src="https://flagcdn.com/w20/tw.png" alt="繁體中文" class="flag-icon" />
@@ -196,53 +196,69 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid fkex-grow-1" style="margin-bottom: 72px">
-        <!-- hero↓ -->
-        <div class="row heroPic" style="background-image: url(https://medalliance.com.tw/images/product/products-hero.webp)"></div>
-        <!-- hero↑ -->
-        <section class="container-xxl">
-          <div class="row">
-            <div class="col-12 col-sm-10">
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item">
-                    <a href="https://medalliance.com.tw/zh_t/index.html">首頁</a>
-                  </li>
-                  <li class="breadcrumb-item active" aria-current="page">產品</li>
-                </ol>
-              </nav>
-            </div>
+    </header>
+
+    <main class="flex-grow-1">
+      <!-- hero↓ -->
+      <section class="container-fluid heroPic" style="background-image: url(https://medalliance.com.tw/images/product/products-hero.webp)"></section>
+      <!-- hero↑ -->
+
+      <!-- breadcrumb -->
+      <div class="container-xxl">
+        <div class="row mb-3">
+          <div class="col-12 col-sm-10">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="https://medalliance.com.tw/zh_t/index.html">首頁</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">產品</li>
+              </ol>
+            </nav>
           </div>
-          <div class="row flex-row justify-content-center">
-            <div class="col-12 col-sm-3 d-none d-sm-block">
-              <nav id="navbar-all_products" class="flex-column align-items-stretch pe-4 border-0 sticky-top" style="position: sticky; top: 102px; z-index: 1">
-                <div class="border-bottom mb-3">
-                  <p class="fs-4 fw-bold mb-1">產品分類</p>
-                </div>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link" href="#medical_cart_computer">醫療推車電腦</a>
-                  <a class="nav-link" href="#medical_tablet">醫療平板電腦</a>
-                  <a class="nav-link" href="#medical_ai_pc">醫療人工智慧電腦</a>
-                  <a class="nav-link" href="#medical_imaging">醫療影像裝置</a>
-                  <a class="nav-link" href="#smart_or_video_integration_suite">智慧手術室影像整合</a>
-                  <a class="nav-link" href="#intelligent_monitoring">智慧監控</a>
-                  <a class="nav-link" href="#chemistry_analyzer">化學分析儀</a>
-                </nav>
+        </div>
+      </div>
+
+      <section class="container-xxl sectionToFooter">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-3 d-none d-sm-block">
+            <nav id="navbar-all_products" class="border-0 sticky-top" style="top: 102px; z-index: 1">
+              <div class="border-bottom mb-3">
+                <p class="fs-4 fw-bold mb-1">產品分類</p>
+              </div>
+              <nav class="nav nav-pills flex-column">
+                <p class="fs-5 fw-bold text-danger mb-0">醫療運算與智慧設備</p>
+                <a class="nav-link" href="#medical_cart_computer">醫療推車電腦</a>
+                <a class="nav-link" href="#medical_tablet">醫療平板電腦</a>
+                <a class="nav-link" href="#medical_ai_pc">醫療人工智慧電腦</a>
+                <!-- <p class="fs-5 fw-bold text-danger mb-0">醫療設備與臨床工作站</p>
+                <a class="nav-link" href="#">醫療推車</a> -->
+                <p class="fs-5 fw-bold text-danger mb-0">醫療影像與臨床整合</p>
+                <a class="nav-link" href="#medical_imaging">醫療影像裝置</a>
+                <a class="nav-link" href="#smart_or_video_integration_suite">智慧手術室影像整合</a>
+                <a class="nav-link" href="#intelligent_monitoring">智慧監控</a>
+                <p class="fs-5 fw-bold text-danger mb-0">醫療檢測與分析</p>
+                <a class="nav-link" href="#chemistry_analyzer">化學分析儀</a>
+                <p class="fs-5 fw-bold text-danger mb-0">醫療防護與耗材</p>
+                <a class="nav-link" href="#medical_protective_mask_series">醫療防護口罩系列</a>
               </nav>
-            </div>
-            <div class="col-12 col-sm-7">
-              <div data-bs-spy="scroll" data-bs-target="#navbar-all_products" data-bs-smooth-scroll="true" tabindex="0">
+            </nav>
+          </div>
+          <div class="col-12 col-sm-7">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-all_products" data-bs-smooth-scroll="true" tabindex="0">
+              <!-- 醫療運算與智慧設備 -->
+              <div class="mb-5">
                 <div class="border-bottom mb-3">
-                  <p class="fs-4 fw-bold mb-1">產品列表</p>
+                  <p class="fs-4 fw-bold mb-1">醫療運算與智慧設備</p>
                 </div>
                 <div id="medical_cart_computer">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">醫療推車電腦</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">醫療推車電腦</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/venus244.webp" alt="Venus 244" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">Venus 244</h5>
+                          <h5 class="fs-6">Venus 244</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_cart_computer/venus_244.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -251,7 +267,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/venus224.webp" alt="#" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">Venus 224</h5>
+                          <h5 class="fs-6">Venus 224</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_cart_computer/venus_224.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -259,13 +275,13 @@
                   </div>
                 </div>
                 <div id="medical_tablet">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">醫療平板電腦</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">醫療平板電腦</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/md116e.webp" alt="#" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">MD 116E</h5>
+                          <h5 class="fs-6">MD 116E</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_tablet/md_116e.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -273,13 +289,13 @@
                   </div>
                 </div>
                 <div id="medical_ai_pc">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">醫療人工智慧電腦</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">醫療人工智慧電腦</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/js2000.webp" alt="#" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">ACCEL-JS2000</h5>
+                          <h5 class="fs-6">ACCEL-JS2000</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_ai_pc/accel_js2000.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -288,7 +304,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/js1100.webp" alt="#" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">ACCEL-JS1100</h5>
+                          <h5 class="fs-6">ACCEL-JS1100</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_ai_pc/accel_js1100.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -297,7 +313,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/vm1000.webp" alt="#" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">ACCEL-VM1000</h5>
+                          <h5 class="fs-6">ACCEL-VM1000</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_ai_pc/accel_vm1000.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -306,21 +322,28 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/a2203.webp" alt="#" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">ACCEL-A2203</h5>
+                          <h5 class="fs-6">ACCEL-A2203</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_ai_pc/accel_a2203.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <!-- 醫療影像與臨床整合 -->
+              <div class="mb-5">
+                <div class="border-bottom mb-3">
+                  <p class="fs-4 fw-bold mb-1">醫療影像與臨床整合</p>
+                </div>
                 <div id="medical_imaging">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">醫療影像</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">醫療影像裝置</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/low_dose_portable_fluoro-radiography_system.webp" alt="Hand Diagnosis Radiography Imaging System" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">低劑量便攜式透視放射成像系統</h5>
+                          <h5 class="fs-6">低劑量便攜式透視放射成像系統</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_imaging/low_dose_portable_fluoro-radiography_system.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -329,7 +352,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/opportunistic_screening_for_low_bone_mineral_density.webp" alt="Hand Diagnosis Radiography Imaging System" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">低骨質密度機會式篩檢</h5>
+                          <h5 class="fs-6">低骨質密度機會式篩檢</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_imaging/opportunistic_screening_for_low_bone_mineral_density.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -338,7 +361,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/hand_diagnosis_radiography_imaging_system.webp" alt="Hand Diagnosis Radiography Imaging System" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">手部診斷放射影像系統</h5>
+                          <h5 class="fs-6">手部診斷放射影像系統</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/medical_imaging/hand_diagnosis_radiography_imaging_system.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -346,13 +369,13 @@
                   </div>
                 </div>
                 <div id="smart_or_video_integration_suite">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">智慧手術室影像整合</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">智慧手術室影像整合</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/smart_or_video_capture_hub.webp" alt="Smart OR Video Capture Hub" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">動態醫療影像記錄系統</h5>
+                          <h5 class="fs-6">動態醫療影像記錄系統</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/smart_or_video_capture_hub.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -361,7 +384,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/or_video_management_&_insights_platform.webp" alt="OR Video Management & Insights Platform" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">動態醫療影像管理系統</h5>
+                          <h5 class="fs-6">動態醫療影像管理系統</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/or_video_management_&_insights_platform.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -370,7 +393,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/remote_surgery_collaboration_platform.webp" alt="Remote Surgery Collaboration Platform" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">遠距手術協作平台</h5>
+                          <h5 class="fs-6">遠距手術協作平台</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/remote_surgery_collaboration_platform.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -379,7 +402,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/or_video_routing_matrix.webp" alt="OR Video Routing Matrix" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">動態醫療影像調度系統</h5>
+                          <h5 class="fs-6">動態醫療影像調度系統</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/smart_or_video_integration_suite/or_video_routing_matrix.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -387,13 +410,13 @@
                   </div>
                 </div>
                 <div id="intelligent_monitoring">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">智慧監控</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">智慧監控</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/contactless_fall_management_and_bedside_insights.webp" alt="Hand Diagnosis Radiography Imaging System" class="card-img-top" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">非接觸式防跌與健康監測​</h5>
+                          <h5 class="fs-6">非接觸式防跌與健康監測​</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/intelligent_monitoring/contactless_fall_management_and_bedside_insights.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -402,21 +425,28 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/ai_real-time_breathing_monitoring_system.webp" class="card-img-top" alt="AI Real-Time Breathing Monitoring System" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">AI即時呼吸監測系統</h5>
+                          <h5 class="fs-6">AI即時呼吸監測系統</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/intelligent_monitoring/ai_real-time_breathing_monitoring_system.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <!-- 醫療檢測與分析 -->
+              <div class="mb-5">
+                <div class="border-bottom mb-3">
+                  <p class="fs-4 fw-bold mb-1">醫療檢測與分析</p>
+                </div>
                 <div id="chemistry_analyzer">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">化學分析儀</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">化學分析儀</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/clinical_chemistry_analyzer.webp" class="card-img-top" alt="Clinical Chemistry Analyzer" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">臨床生化分析儀</h5>
+                          <h5 class="fs-6">臨床生化分析儀</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/chemistry_analyzer/clinical_chemistry_analyzer.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -425,7 +455,7 @@
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
                         <img src="https://medalliance.com.tw/images/gallery/ratio32/veterinary_chemistry_analyzer.webp" class="card-img-top" alt="Veterinary Chemistry Analyzer" />
                         <div class="card-body text-center">
-                          <h5 class="fs-6 text-primary">獸醫化學分析儀</h5>
+                          <h5 class="fs-6">獸醫化學分析儀</h5>
                         </div>
                         <a href="https://medalliance.com.tw/zh_t/products/chemistry_analyzer/veterinary_chemistry_analyzer.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
                       </div>
@@ -433,13 +463,33 @@
                   </div>
                 </div>
               </div>
+
+              <!-- 醫療防護與耗材 -->
+              <div class="border-bottom mb-3">
+                <p class="fs-4 fw-bold mb-1">醫療防護與耗材</p>
+              </div>
+              <div id="medical_protective_mask_series">
+                <h2 class="fs-5 fw-bold text-danger calloutPriamry70">醫療防護口罩系列</h2>
+                <div class="row">
+                  <div class="col-6 col-sm-4 mb-1 mb-sm-2">
+                    <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
+                      <img src="#" class="card-img-top" alt="醫療防護口罩系列" />
+                      <div class="card-body text-center">
+                        <h5 class="fs-6">醫療防護口罩系列</h5>
+                      </div>
+                      <a href="https://medalliance.com.tw/zh_t/products/medical_protective_mask_series.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">瞭解更多</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
+        </div>
+      </section>
+    </main>
+
     <!-- footer↓  -->
-    <footer class="container-fluid p-0" style="background-color: #efefef9e">
+    <footer class="container-fluid p-0 light-bg">
       <div class="container-xxl py-3">
         <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-end">
           <div class="d-flex flex-sm-row align-items-sm-end flex-column justify-content-center text-center text-sm-start mb-3 mb-sm-0">
@@ -464,7 +514,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid p-0 bg-secondary py-2 align-items-stretch">
+      <div class="container-fluid bg-secondary py-2">
         <p class="text-center text-white m-0">Copyright © 2023 Medalliance All rights reserved.</p>
       </div>
     </footer>

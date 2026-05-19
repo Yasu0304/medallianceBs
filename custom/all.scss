@@ -45,6 +45,7 @@
 // 是否語系切換end
 
 p,
+.fs-6,
 .list-group-item {
   color: $med-bk-60;
 }
@@ -201,6 +202,13 @@ p,
       padding-top: 72px;
       padding-bottom: 128px;
     }
+  }
+}
+
+.sectionToFooter {
+  margin-bottom: 72px;
+  @include sm {
+    margin-bottom: 128px;
   }
 }
 

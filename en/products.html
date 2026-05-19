@@ -31,9 +31,9 @@
     <!-- CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/custom/coustom.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/custom/all.css" />
-    <link rel="stylesheet" href="https://medalliance.com.tw/custom/products.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/coustom.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/all.css" />
+    <link rel="stylesheet" href="https://medalliance.com.tw/customVer2/products.css" />
 
     <!-- JS -->
     <!-- Google Tag Manager -->
@@ -63,11 +63,11 @@
     </script>
   </head>
 
-  <body style="display: flex; flex-direction: column">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8ZT55P5" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1">
+    <header class="fixed-top">
       <nav id="navbarEquipments" class="navbar navbar-expand-lg bg-primary sticky-top shadow-sm py-0">
         <div class="container-fluid py-0">
           <a class="navbar-brand py-sm-0 py-3" href="https://medalliance.com.tw/en/index.html">
@@ -202,45 +202,60 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid fkex-grow-1" style="margin-bottom: 72px">
-        <!-- hero↓ -->
-        <div class="row heroPic" style="background-image: url(https://medalliance.com.tw/images/product/products-hero.webp)"></div>
-        <!-- hero↑ -->
-        <section class="container-xxl">
-          <div class="row">
-            <div class="col-12 col-sm-10">
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="https://medalliance.com.tw/">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Products</li>
-                </ol>
-              </nav>
-            </div>
+    </header>
+
+    <main class="flex-grow-1">
+      <!-- hero↓ -->
+      <section class="container-fluid heroPic" style="background-image: url(https://medalliance.com.tw/images/product/products-hero.webp)"></section>
+      <!-- hero↑ -->
+
+      <!-- breadcrumb -->
+      <div class="container-xxl">
+        <div class="row mb-3">
+          <div class="col-12 col-sm-10">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://medalliance.com.tw/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Products</li>
+              </ol>
+            </nav>
           </div>
-          <div class="row flex-row justify-content-center">
-            <div class="col-12 col-sm-3 d-none d-sm-block">
-              <nav id="navbar-all_products" class="flex-column align-items-stretch pe-4 border-0 sticky-top" style="position: sticky; top: 102px; z-index: 1">
-                <div class="border-bottom mb-3">
-                  <p class="fs-4 fw-bold mb-1">Products Item</p>
-                </div>
-                <nav class="nav nav-pills flex-column">
-                  <a class="nav-link" href="#medical_cart_computer">Medical Cart Computer</a>
-                  <a class="nav-link" href="#medical_tablet">Medical Tablet</a>
-                  <a class="nav-link" href="#medical_ai_pc">Medical AI PC</a>
-                  <a class="nav-link" href="#medical_imaging">Medical Imaging</a>
-                  <a class="nav-link" href="#smart_or_video_integration_suite">Smart OR Video Integration Suite</a>
-                  <a class="nav-link" href="#intelligent_monitoring">Intelligent Monitoring</a>
-                  <a class="nav-link" href="#chemistry_analyzer">Chemistry Analyzer</a>
-                </nav>
+        </div>
+      </div>
+      <section class="container-xxl sectionToFooter">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-3 d-none d-sm-block">
+            <nav id="navbar-all_products" class="border-0 sticky-top" style="top: 102px; z-index: 1">
+              <div class="border-bottom mb-3">
+                <p class="fs-4 fw-bold mb-1">Products Item</p>
+              </div>
+              <nav class="nav nav-pills flex-column">
+                <p class="fs-5 fw-bold text-danger mb-0">醫療運算與智慧設備</p>
+                <a class="nav-link" href="#medical_cart_computer">Medical Cart Computer</a>
+                <a class="nav-link" href="#medical_tablet">Medical Tablet</a>
+                <a class="nav-link" href="#medical_ai_pc">Medical AI PC</a>
+                <!-- <p class="fs-5 fw-bold text-danger mb-0">醫療設備與臨床工作站</p>
+                <a class="nav-link" href="#">醫療推車</a> -->
+                <p class="fs-5 fw-bold text-danger mb-0">醫療影像與臨床整合</p>
+                <a class="nav-link" href="#medical_imaging">Medical Imaging</a>
+                <a class="nav-link" href="#smart_or_video_integration_suite">Smart OR Video Integration Suite</a>
+                <a class="nav-link" href="#intelligent_monitoring">Intelligent Monitoring</a>
+                <p class="fs-5 fw-bold text-danger mb-0">醫療檢測與分析</p>
+                <a class="nav-link" href="#chemistry_analyzer">Chemistry Analyzer</a>
+                <p class="fs-5 fw-bold text-danger mb-0">醫療防護與耗材</p>
+                <a class="nav-link" href="#medical_protective_mask_series">醫療防護口罩系列</a>
               </nav>
-            </div>
-            <div class="col-12 col-sm-7">
-              <div data-bs-spy="scroll" data-bs-target="#navbar-all_products" data-bs-smooth-scroll="true" tabindex="0">
+            </nav>
+          </div>
+          <div class="col-12 col-sm-7">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-all_products" data-bs-smooth-scroll="true" tabindex="0">
+              <!-- 醫療運算與智慧設備 -->
+              <div class="mb-5">
                 <div class="border-bottom mb-3">
-                  <p class="fs-4 fw-bold mb-1">Products List</p>
+                  <p class="fs-4 fw-bold mb-1">醫療運算與智慧設備</p>
                 </div>
                 <div id="medical_cart_computer">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Medical Cart Computer</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Medical Cart Computer</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -263,7 +278,7 @@
                   </div>
                 </div>
                 <div id="medical_tablet">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Medical Tablet</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Medical Tablet</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -277,7 +292,7 @@
                   </div>
                 </div>
                 <div id="medical_ai_pc">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Medical AI PC</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Medical AI PC</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -317,8 +332,15 @@
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <!-- 醫療影像與臨床整合 -->
+              <div class="mb-5">
+                <div class="border-bottom mb-3">
+                  <p class="fs-4 fw-bold mb-1">醫療影像與臨床整合</p>
+                </div>
                 <div id="medical_imaging">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Medical Imaging</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Medical Imaging</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -350,7 +372,7 @@
                   </div>
                 </div>
                 <div id="smart_or_video_integration_suite">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Smart OR Video Integration Suite</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Smart OR Video Integration Suite</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -391,7 +413,7 @@
                   </div>
                 </div>
                 <div id="intelligent_monitoring">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Intelligent Monitoring</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Intelligent Monitoring</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -413,8 +435,15 @@
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <!-- 醫療檢測與分析 -->
+              <div class="mb-5">
+                <div class="border-bottom mb-3">
+                  <p class="fs-4 fw-bold mb-1">醫療檢測與分析</p>
+                </div>
                 <div id="chemistry_analyzer">
-                  <h2 class="fs-5 fw-bold text-secondary calloutPriamry70">Chemistry Analyzer</h2>
+                  <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Chemistry Analyzer</h2>
                   <div class="row">
                     <div class="col-6 col-sm-4 mb-1 mb-sm-2">
                       <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
@@ -437,11 +466,31 @@
                   </div>
                 </div>
               </div>
+
+              <!-- 醫療防護與耗材 -->
+              <div class="border-bottom mb-3">
+                <p class="fs-4 fw-bold mb-1">醫療防護與耗材</p>
+              </div>
+              <div id="medical_protective_mask_series">
+                <h2 class="fs-5 fw-bold text-danger calloutPriamry70">Medical Protective Mask Series</h2>
+                <div class="row">
+                  <div class="col-6 col-sm-4 mb-1 mb-sm-2">
+                    <div class="card mb-3 h-100 border-0 py-4 px-3 productsCard">
+                      <img src="#" class="card-img-top" alt="Medical Protective Mask Series" />
+                      <div class="card-body text-center">
+                        <h5 class="fs-6">Medical Protective Mask Series</h5>
+                      </div>
+                      <a href="https://medalliance.com.tw/en/products/medical_protective_mask_series.html" class="btn btn-primary fw-bold" type="button" style="text-decoration: none">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
+        </div>
+      </section>
+    </main>
+
     <!-- footer↓  -->
     <footer class="container-fluid p-0" style="background-color: #efefef9e">
       <div class="container-xxl py-3">
