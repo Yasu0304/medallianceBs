@@ -1,3 +1,18 @@
+.heroPic-allProducts {
+  background-image: url("https://medalliance.com.tw/images/product/products-hero.webp");
+  min-height: 200px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPic-allProducts {
+    min-height: 350px;
+  }
+}
+
 .productsTab {
   z-index: 2;
   height: 84px;
