@@ -89,9 +89,6 @@ p,
 }
 
 // 導航列
-.p_navLink {
-  color: $medsec;
-}
 
 .navbarImg {
   height: 28px;
@@ -104,12 +101,12 @@ p,
 
 .dropdown-menu {
   .dropdown-item {
-    color: $med-bk-80;
+    color: $med-bk-60;
     font-weight: 300;
     &:hover,
     :active {
       background-color: $med-bk-00;
-      color: $medsec;
+      color: $medactive;
     }
   }
 
@@ -129,10 +126,11 @@ p,
   // }
 
   .dropdown-item.dropdown-item_none {
+    color: $med-bk-60;
     &:hover,
     :active {
       background-color: $med-bk-00;
-      color: $med-bk-80;
+      color: $med-bk-60;
       font-weight: 300;
     }
   }
@@ -141,10 +139,10 @@ p,
 .nav-item {
   &:active,
   :hover {
-    background-color: $medsec;
+    background-color: $medactive;
   }
   .active {
-    background-color: $medsec;
+    background-color: $medactive;
   }
 }
 

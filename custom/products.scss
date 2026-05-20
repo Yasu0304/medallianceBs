@@ -6,26 +6,28 @@
 //   scroll-padding-top: 200px; //header 高度
 // }
 
-.productsPt {
-  overflow: hidden;
-  padding-top: 93px;
+// .productsPt {
+//   overflow: hidden;
+//   padding-top: 93px;
 
-  @include sm {
-    padding-top: 119px;
-  }
+//   @include sm {
+//     padding-top: 119px;
+//   }
 
-  @include md {
-    padding-top: 109px;
-  }
-}
+//   @include md {
+//     padding-top: 109px;
+//   }
+// }
 
+//productsPage
 .productsTab {
   z-index: 2;
-  height: 112px;
+  height: 84px;
   position: sticky;
   top: 0px;
 
   @include sm {
+    height: 112px;
     top: 0px;
   }
 
@@ -40,6 +42,7 @@
   }
 }
 
+//allProucts
 .calloutPriamry70 {
   @include callout($meddan, #ffffff00, $meddan);
 }
@@ -49,5 +52,14 @@
   transition: 0.5s;
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  }
+}
+
+.nav-link {
+  color: $med-bk-60;
+  &:hover,
+  :active {
+    font-weight: normal;
+    color: $med-bk-60;
   }
 }
