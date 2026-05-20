@@ -40,7 +40,7 @@ p,
 }
 
 .fs-2 {
-  color: #43557f;
+  color: #4d5f82;
 }
 
 .fs-4 {
@@ -78,7 +78,7 @@ p,
 }
 
 .p_navLink {
-  color: #43557f;
+  color: #4d5f82;
 }
 
 .navbarImg {
@@ -99,7 +99,7 @@ p,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item :active {
   background-color: #fff;
-  color: #43557f;
+  color: #4d5f82;
 }
 .dropdown-menu .dropdown-item.dropdown-item_none:hover,
 .dropdown-menu .dropdown-item.dropdown-item_none :active {
@@ -110,10 +110,10 @@ p,
 
 .nav-item:active,
 .nav-item :hover {
-  background-color: #43557f;
+  background-color: #4d5f82;
 }
 .nav-item .active {
-  background-color: #43557f;
+  background-color: #4d5f82;
 }
 
 .nav-item.nav-item_none:active,
