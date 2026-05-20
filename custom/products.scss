@@ -25,6 +25,7 @@
   height: 84px;
   position: sticky;
   top: 0px;
+  background-color: $medactive;
 
   @include sm {
     height: 112px;

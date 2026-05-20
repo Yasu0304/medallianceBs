@@ -3,6 +3,7 @@
   height: 84px;
   position: sticky;
   top: 0px;
+  background-color: #00b0c1;
 }
 @media (min-width: 576px) {
   .productsTab {
