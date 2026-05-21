@@ -50,13 +50,4 @@
 }
 .productsCard:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-}
-
-.nav-link {
-  color: #6c757d;
-}
-.nav-link:hover,
-.nav-link :active {
-  font-weight: normal;
-  color: #6c757d;
 }/*# sourceMappingURL=products.css.map */
