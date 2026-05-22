@@ -2,9 +2,10 @@
 @use 'components' as *;
 @use 'media' as *;
 
-.contactHero {
+.heroPic-contact {
+  background-image: url('https://medalliance.com.tw/images/contact.webp');
   min-height: 200px;
-  @include bg-setting(40%, center, cover, no-repeat, scroll);
+  @include bg-setting(top, center, cover, no-repeat, scroll);
   @include sm {
     min-height: 350px;
   }
