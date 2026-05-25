@@ -58,14 +58,6 @@ p,
   color: $medsuc;
 }
 
-.p_gray600 {
-  color: $med-bk-60;
-}
-
-.p_gray800 {
-  color: $med-bk-80;
-}
-
 .cardAni {
   transition: 0.5s;
   &:hover {
@@ -89,7 +81,6 @@ p,
 }
 
 // 導航列
-
 .navbarImg {
   height: 28px;
   width: auto;
@@ -175,17 +166,9 @@ p,
   margin: 0;
 }
 
-.heroPic {
-  min-height: 200px;
-  @include bg-setting(40%, center, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 350px;
-  }
-}
-
 .footerLogo {
   max-width: auto;
-  height: 3vh;
+  height: 5vh;
   @include sm {
     max-width: auto;
     height: 4vh;
@@ -203,7 +186,7 @@ p,
   }
 }
 
-.sectionToFooter {
+.sectionmb72 {
   margin-bottom: 72px;
   @include sm {
     margin-bottom: 128px;
@@ -222,4 +205,44 @@ p,
 
 .light-bg {
   background-color: $medlightbg;
+}
+
+//各hero
+.heroPicTop {
+  min-height: 200px;
+  @include bg-setting(top, center, cover, no-repeat, scroll);
+  @include sm {
+    min-height: 350px;
+  }
+}
+
+.heroPic40 {
+  min-height: 200px;
+  @include bg-setting(40%, center, cover, no-repeat, scroll);
+  @include sm {
+    min-height: 350px;
+  }
+}
+
+.heroPicCenter {
+  min-height: 200px;
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  @include sm {
+    min-height: 350px;
+  }
+}
+
+.heroContact {
+  background-image: url('https://medalliance.com.tw/images/contact.webp');
+}
+.heroNews2022 {
+  background-image: url('https://medalliance.com.tw/images/about/news/2022-hero.webp');
+}
+
+.heroNews2023 {
+  background-image: url('https://medalliance.com.tw/images/about/news/2023-hero.webp');
+}
+
+.heroNewsAllNews {
+  background-image: url('https://medalliance.com.tw/images/about/news/all_news-hero.webp');
 }

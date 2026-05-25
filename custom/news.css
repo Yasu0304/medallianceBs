@@ -1,12 +1,3 @@
-.heroPic {
-  min-height: 250px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  overflow: hidden;
-}
-
 .newsCard-bg {
   min-height: 150px;
 }

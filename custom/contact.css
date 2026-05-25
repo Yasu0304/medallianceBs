@@ -1,18 +1,5 @@
-.contactHero {
-  min-height: 200px;
-  background-position: 40% center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  overflow: hidden;
-}
-@media (min-width: 576px) {
-  .contactHero {
-    min-height: 350px;
-  }
-}
-
 .contactCard {
+  background-image: url("https://medalliance.com.tw/images/medalliance-col.svg");
   padding-top: 59.36%;
   overflow: hidden;
   width: 100%;

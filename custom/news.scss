@@ -1,11 +1,6 @@
-@use "base" as *;
-@use "components" as *;
-@use "media" as *;
-
-.heroPic {
-  min-height: 250px;
-  @include bg-setting(center, center, cover, no-repeat, scroll);
-}
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
 
 .newsCard-bg {
   min-height: 150px;

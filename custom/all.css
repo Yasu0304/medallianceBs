@@ -47,14 +47,6 @@ p,
   color: #6477a4;
 }
 
-.p_gray600 {
-  color: #6c757d;
-}
-
-.p_gray800 {
-  color: #343a40;
-}
-
 .cardAni {
   transition: 0.5s;
 }
@@ -145,23 +137,9 @@ p,
   margin: 0;
 }
 
-.heroPic {
-  min-height: 200px;
-  background-position: 40% center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  overflow: hidden;
-}
-@media (min-width: 576px) {
-  .heroPic {
-    min-height: 350px;
-  }
-}
-
 .footerLogo {
   max-width: auto;
-  height: 3vh;
+  height: 5vh;
 }
 @media (min-width: 576px) {
   .footerLogo {
@@ -183,11 +161,11 @@ p,
   }
 }
 
-.sectionToFooter {
+.sectionmb72 {
   margin-bottom: 72px;
 }
 @media (min-width: 576px) {
-  .sectionToFooter {
+  .sectionmb72 {
     margin-bottom: 128px;
   }
 }
@@ -202,4 +180,62 @@ p,
 
 .light-bg {
   background-color: #f5f9fc;
+}
+
+.heroPicTop {
+  min-height: 200px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPicTop {
+    min-height: 350px;
+  }
+}
+
+.heroPic40 {
+  min-height: 200px;
+  background-position: 40% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPic40 {
+    min-height: 350px;
+  }
+}
+
+.heroPicCenter {
+  min-height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPicCenter {
+    min-height: 350px;
+  }
+}
+
+.heroContact {
+  background-image: url("https://medalliance.com.tw/images/contact.webp");
+}
+
+.heroNews2022 {
+  background-image: url("https://medalliance.com.tw/images/about/news/2022-hero.webp");
+}
+
+.heroNews2023 {
+  background-image: url("https://medalliance.com.tw/images/about/news/2023-hero.webp");
+}
+
+.heroNewsAllNews {
+  background-image: url("https://medalliance.com.tw/images/about/news/all_news-hero.webp");
 }/*# sourceMappingURL=all.css.map */
