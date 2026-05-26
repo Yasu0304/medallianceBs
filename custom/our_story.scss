@@ -1,27 +1,38 @@
-@use "base" as *;
-@use "media" as *;
-@use "components" as *;
+@use 'base' as *;
+@use 'media' as *;
+@use 'components' as *;
 
-.viedoLocation {
-  @include card(56.25%);
-  position: relative;
+.storyRow {
+  overflow: hidden;
 }
 
-.squareCard {
+.storyCard {
   @include card(60%);
-  position: relative;
-  @include bg-setting(center, center, cover, no-repeat, scroll);
+  // aspect-ratio: 1 / 1;
+
+  @include sm {
+    aspect-ratio: unset;
+    min-height: 420px;
+  }
 }
 
-.cardContent {
-  position: absolute;
-  top: 50%;
-  left: 4%;
-  transform: translate(0, -50%);
+/* 圖片 */
+.storyImg {
+  @include bg-setting(center, center, cover, no-repeat, cover);
+}
 
-  &:nth-child(odd) {
-    top: 50%;
-    right: 4%;
-    transform: translate(0, -50%);
+/* 文字卡 */
+.storyText {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background: $med-bk-00;
+
+  @include sm {
+    padding: 4rem;
+  }
+
+  p {
+    word-break: break-word;
   }
 }
