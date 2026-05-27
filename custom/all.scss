@@ -224,6 +224,20 @@ p,
   }
 }
 
+//indexHero
+.heroPic60 {
+  @include bg-setting(60%, top, cover, no-repeat, scroll);
+  @include sm {
+    @include bg-setting(80%, top, 50%, no-repeat, scroll);
+  }
+  .heroHeight {
+    min-height: 40vh;
+    @include sm {
+      min-height: 60vh;
+    }
+  }
+}
+
 .heroPicCenter {
   min-height: 200px;
   @include bg-setting(center, center, cover, no-repeat, scroll);
@@ -232,6 +246,9 @@ p,
   }
 }
 
+.heroIndex {
+  background-image: url('https://medalliance.com.tw/images/hero.webp');
+}
 .heroContact {
   background-image: url('https://medalliance.com.tw/images/contact.webp');
 }

@@ -210,6 +210,31 @@ p,
   }
 }
 
+.heroPic60 {
+  background-position: 60% top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPic60 {
+    background-position: 80% top;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+}
+.heroPic60 .heroHeight {
+  min-height: 40vh;
+}
+@media (min-width: 576px) {
+  .heroPic60 .heroHeight {
+    min-height: 60vh;
+  }
+}
+
 .heroPicCenter {
   min-height: 200px;
   background-position: center center;
@@ -222,6 +247,10 @@ p,
   .heroPicCenter {
     min-height: 350px;
   }
+}
+
+.heroIndex {
+  background-image: url("https://medalliance.com.tw/images/hero.webp");
 }
 
 .heroContact {

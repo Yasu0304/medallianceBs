@@ -3,15 +3,7 @@
 @use 'media' as *;
 
 // index
-.heroPic {
-  min-height: 40vh;
-  background-image: url(https://medalliance.com.tw/images/hero.webp);
-  @include bg-setting(60%, top, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 60vh;
-    @include bg-setting(80%, top, 50%, no-repeat, scroll);
-  }
-}
+
 .heroTitle {
   background-color: rgba(255, 255, 255, 0.062);
   backdrop-filter: blur(3px);
