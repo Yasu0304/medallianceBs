@@ -238,4 +238,12 @@ p,
 
 .heroNewsAllNews {
   background-image: url("https://medalliance.com.tw/images/about/news/all_news-hero.webp");
+}
+
+.heroMaskSolution {
+  background-image: url("https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp");
+}
+
+.heroAllSolutions {
+  background-image: url("https://medalliance.com.tw/images/solutions/all_solutions-hero.webp");
 }/*# sourceMappingURL=all.css.map */
