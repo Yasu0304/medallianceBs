@@ -1,8 +1,0 @@
-@use 'base' as *;
-@use 'media' as *;
-@use 'components' as *;
-
-.heroPic {
-  min-height: 250px;
-  @include bg-setting(40%, center, cover, no-repeat, scroll);
-}
