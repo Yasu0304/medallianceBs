@@ -2,7 +2,7 @@
 @use 'components' as *;
 @use 'media' as *;
 
-.contactCard {
+.contactCard-web {
   background-image: url('https://medalliance.com.tw/images/medalliance-col.svg');
   @include card(59.36%);
   @include bg-setting(center, center, cover, no-repeat, scroll);
