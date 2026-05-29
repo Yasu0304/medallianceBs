@@ -7,32 +7,6 @@
 }
 
 .storyCard {
-  @include card(60%);
-  // aspect-ratio: 1 / 1;
-
-  @include sm {
-    aspect-ratio: unset;
-    min-height: 420px;
-  }
-}
-
-/* 圖片 */
-.storyImg {
-  @include bg-setting(center, center, cover, no-repeat, cover);
-}
-
-/* 文字卡 */
-.storyText {
-  display: flex;
-  align-items: center;
-  padding: 2rem;
-  background: $med-bk-00;
-
-  @include sm {
-    padding: 4rem;
-  }
-
-  p {
-    word-break: break-word;
-  }
+  @include card(100%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
 }
