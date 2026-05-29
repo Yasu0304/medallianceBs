@@ -1,41 +1,14 @@
-@charset "UTF-8";
 .storyRow {
   overflow: hidden;
 }
 
 .storyCard {
-  padding-top: 60%;
+  padding-top: 100%;
   overflow: hidden;
   width: 100%;
-}
-@media (min-width: 576px) {
-  .storyCard {
-    aspect-ratio: unset;
-    min-height: 420px;
-  }
-}
-
-/* 圖片 */
-.storyImg {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: cover;
+  background-attachment: scroll;
   overflow: hidden;
-}
-
-/* 文字卡 */
-.storyText {
-  display: flex;
-  align-items: center;
-  padding: 2rem;
-  background: #fff;
-}
-@media (min-width: 576px) {
-  .storyText {
-    padding: 4rem;
-  }
-}
-.storyText p {
-  word-break: break-word;
 }/*# sourceMappingURL=our_story.css.map */
