@@ -1,3 +1,10 @@
+.viedoLocation {
+  padding-top: 56.25%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
 .storyRow {
   overflow: hidden;
 }

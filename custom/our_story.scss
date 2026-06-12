@@ -2,6 +2,11 @@
 @use 'media' as *;
 @use 'components' as *;
 
+.viedoLocation {
+  @include card(56.25%);
+  position: relative;
+}
+
 .storyRow {
   overflow: hidden;
 }
