@@ -334,7 +334,7 @@
   padding: 5rem 0;
 }
 
-.clinicalEnvironments {
+.card100per {
   padding-top: 100%;
   overflow: hidden;
   width: 100%;
@@ -343,6 +343,18 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
+}
+.card100per.mobileCart_bg {
+  background-image: url(https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp);
+}
+.card100per.telemedicine_bg {
+  background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/telemedicine.webp");
+}
+.card100per.computerCart_bg {
+  background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/computer_cart.webp");
+}
+.card100per.cooperate_bg {
+  background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/cooperate.webp");
 }
 
 .consistentQuality_bg {
