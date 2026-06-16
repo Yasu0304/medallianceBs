@@ -201,6 +201,11 @@ p,
   background-color: #f5f9fc;
 }
 
+.sectionFilter_bg {
+  background-color: rgba(41, 64, 118, 0.5529411765);
+  backdrop-filter: blur(10px);
+}
+
 .heroPic60 {
   background-position: 60% top;
   background-size: cover;

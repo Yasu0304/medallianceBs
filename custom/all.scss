@@ -229,6 +229,11 @@ p,
   background-color: $medlightbg;
 }
 
+.sectionFilter_bg {
+  background-color: $medBlur;
+  backdrop-filter: blur(10px);
+}
+
 //indexHero
 .heroPic60 {
   @include bg-setting(60%, top, cover, no-repeat, scroll);

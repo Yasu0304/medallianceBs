@@ -1,0 +1,28 @@
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
+
+.card100per {
+  @include card(100%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  &.mobileCart_bg {
+    background-image: url(https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp);
+  }
+  &.telemedicine_bg {
+    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/telemedicine.webp');
+  }
+  &.computerCart_bg {
+    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/computer_cart.webp');
+  }
+  &.cooperate_bg {
+    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/cooperate.webp');
+  }
+}
+
+.card110per {
+  @include card(110%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  &.commonConfigurationOptions_bg {
+    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/common_configuration_options.webp');
+  }
+}

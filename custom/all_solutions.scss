@@ -263,23 +263,6 @@
   padding: 5rem 0;
 }
 
-.card100per {
-  @include card(100%);
-  @include bg-setting(center, center, cover, no-repeat, scroll);
-  &.mobileCart_bg {
-    background-image: url(https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp);
-  }
-  &.telemedicine_bg {
-    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/telemedicine.webp');
-  }
-  &.computerCart_bg {
-    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/computer_cart.webp');
-  }
-  &.cooperate_bg {
-    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/cooperate.webp');
-  }
-}
-
 // medicalProtectiveMaskSolutionsPage
 .consistentQuality_bg {
   @include bg-setting(center, center, cover, no-repeat, fixed);
@@ -292,4 +275,15 @@
     @include bg-setting(center, top, cover, no-repeat, scroll);
     background-image: url(https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/contact.webp);
   }
+}
+
+// medicalCartSolutionPage
+.commonConfigurationOptions_bg {
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/common_configuration_options.webp');
+}
+
+.reliableIntegration_bg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/reliable_integration.webp');
 }
