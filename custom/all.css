@@ -1,36 +1,26 @@
-#lang-banner {
+#languageBanner {
   position: fixed;
   bottom: 20px;
   left: 50%;
-  transform: translateX(-50%) translateY(20px);
-  opacity: 0;
-  z-index: 9999;
   width: 90%;
   max-width: 520px;
+  z-index: 99999;
+  opacity: 0;
+  transform: translateX(-50%) translateY(20px);
   transition: all 0.3s ease;
 }
 
-#lang-banner.show {
-  transform: translateX(-50%) translateY(0);
+#languageBanner.show {
   opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
-.lang-banner-inner {
+.language-banner {
   background: #fff;
-  border-radius: 14px;
+  border-radius: 16px;
   padding: 14px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  font-size: 14px;
-}
-
-.lang-actions {
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
 }
 
 p,
