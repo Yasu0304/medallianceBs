@@ -26,3 +26,10 @@
     background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/common_configuration_options.webp');
   }
 }
+
+.fullBg {
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  &.manufacturingServices_bg {
+    background-image: url('https://medalliance.com.tw/images/services/manufacturing_services-08.webp');
+  }
+}

@@ -33,4 +33,15 @@
 }
 .card110per.commonConfigurationOptions_bg {
   background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/common_configuration_options.webp");
+}
+
+.fullBg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.fullBg.manufacturingServices_bg {
+  background-image: url("https://medalliance.com.tw/images/services/manufacturing_services-08.webp");
 }/*# sourceMappingURL=cards.css.map */

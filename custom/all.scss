@@ -74,14 +74,21 @@ p,
 .fs-6,
 .list-group-item {
   color: $med-bk-60;
+  text-wrap: balance;
 }
 
 .fs-2 {
   color: $medsec;
+  text-wrap: balance;
 }
 
 .fs-4 {
   color: $medsuc;
+  text-wrap: balance;
+}
+
+.fs-5 {
+  text-wrap: balance;
 }
 
 .cardAni {
