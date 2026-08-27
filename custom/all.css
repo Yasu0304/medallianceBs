@@ -27,21 +27,21 @@ p,
 .fs-6,
 .list-group-item {
   color: #6c757d;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 .fs-2 {
   color: #4d5f82;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 .fs-4 {
   color: #6477a4;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 .fs-5 {
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 .cardAni {
