@@ -6,7 +6,7 @@
   @include card(100%);
   @include bg-setting(center, center, cover, no-repeat, scroll);
   &.mobileCart_bg {
-    background-image: url(https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp);
+    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp');
   }
   &.telemedicine_bg {
     background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/telemedicine.webp');

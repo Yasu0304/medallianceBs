@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 .card100per.mobileCart_bg {
-  background-image: url(https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp);
+  background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/mobile_cart.webp");
 }
 .card100per.telemedicine_bg {
   background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/telemedicine.webp");
