@@ -144,27 +144,31 @@
   animation-name: heartBeat;
   animation-duration: $sec;
   animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2;
 }
 
 @keyframes heartBeat {
   0% {
     transform: scale(1);
   }
-
+  /* 第一下小跳（咚） */
   14% {
-    transform: scale(1.1);
+    transform: scale(1.15);
   }
-
+  /* 回彈微縮 */
   28% {
-    transform: scale(1.1);
+    transform: scale(1);
   }
-
+  /* 第二下大跳（噠） */
   42% {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
-
+  /* 迅速收縮回到原點 */
   70% {
+    transform: scale(1);
+  }
+  /* 70% 到 100% 保持靜止（心臟舒張期），形成規律節奏 */
+  100% {
     transform: scale(1);
   }
 }

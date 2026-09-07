@@ -1,0 +1,17 @@
+@use 'animat' as *;
+
+.heartBeat {
+  @include heartBeat(3s);
+  box-shadow:
+    0 0 5px rgba(13, 110, 253, 0.2),
+    0 0 15px rgba(13, 110, 253, 0.2),
+    0 0 30px rgba(13, 110, 253, 0.2);
+
+  /* 滑鼠懸停時微調霓光亮度 */
+  &:hover {
+    box-shadow:
+      0 0 10px rgba(13, 110, 253, 0.8),
+      0 0 25px rgba(13, 110, 253, 0.6),
+      0 0 40px rgba(13, 110, 253, 0.4);
+  }
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@keyframes upDownFlow {
+  0% {
+    transform: translateY(45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(4px);
+    animation-timing-function: ease-in;
+  }
+  25%, 55%, 75%, 87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  /* 第一下小跳（咚） */
+  14% {
+    transform: scale(1.15);
+  }
+  /* 回彈微縮 */
+  28% {
+    transform: scale(1);
+  }
+  /* 第二下大跳（噠） */
+  42% {
+    transform: scale(1.2);
+  }
+  /* 迅速收縮回到原點 */
+  70% {
+    transform: scale(1);
+  }
+  /* 70% 到 100% 保持靜止（心臟舒張期），形成規律節奏 */
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+.heartBeat {
+  animation-name: heartBeat;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 2;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.2), 0 0 15px rgba(13, 110, 253, 0.2), 0 0 30px rgba(13, 110, 253, 0.2);
+  /* 滑鼠懸停時微調霓光亮度 */
+}
+.heartBeat:hover {
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.8), 0 0 25px rgba(13, 110, 253, 0.6), 0 0 40px rgba(13, 110, 253, 0.4);
+}/*# sourceMappingURL=allAnimat.css.map */
