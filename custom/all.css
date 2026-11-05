@@ -264,9 +264,6 @@ p,
     min-height: 350px;
   }
 }
-.heroPic40.heroAllServices {
-  background-image: url("https://medalliance.com.tw/images/services/all_services-hero.webp");
-}
 .heroPic40.heroCmOem {
   background-image: url("https://medalliance.com.tw/images/services/cm_oem_odm_ems-hero.webp");
 }
@@ -299,15 +296,9 @@ p,
 .heroPicCenter.heroContact {
   background-image: url("https://medalliance.com.tw/images/contact.webp");
 }
-.heroPicCenter.heroCrossDeviceIngteration {
-  background-image: url("https://medalliance.com.tw/images/services/cross-device_integration_and_workflow_advisory-hero.webp");
-}
 .heroPicCenter.heroExportProducts {
   background-image: url("https://medalliance.com.tw/images/services/export_products-hero.webp");
 }
 .heroPicCenter.heroGlobalMarket {
   background-image: url("https://medalliance.com.tw/images/services/global_market_expansion_advisory-hero.webp");
-}
-.heroPicCenter.heroSmartHealthcareConsulting {
-  background-image: url("https://medalliance.com.tw/images/services/smart_healthcare_consulting-hero.webp");
 }/*# sourceMappingURL=all.css.map */
