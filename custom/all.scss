@@ -286,38 +286,6 @@ p,
 }
 
 //各hero
-.heroPicTop {
-  min-height: 200px;
-  @include bg-setting(top, center, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 350px;
-  }
-
-  &.heroAllSolutions {
-    background-image: url('https://medalliance.com.tw/images/solutions/all_solutions-hero.webp');
-  }
-
-  &.heroCartSolution {
-    background-image: url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/medical_cart_solutions.webp');
-  }
-}
-
-.heroPic40 {
-  min-height: 200px;
-  @include bg-setting(40%, center, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 350px;
-  }
-
-  // &.heroAllServices {
-  //   background-image: url('https://medalliance.com.tw/images/services/all_services-hero.webp');
-  // }
-
-  &.heroCmOem {
-    background-image: url('https://medalliance.com.tw/images/services/cm_oem_odm_ems-hero.webp');
-  }
-}
-
 .heroPicCenter {
   min-height: 200px;
   @include bg-setting(center, center, cover, no-repeat, scroll);
@@ -325,13 +293,13 @@ p,
     min-height: 350px;
   }
 
-  &.heroMaskSolution {
-    background-image: url('https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp');
-  }
+  // &.heroMaskSolution {
+  //   background-image: url('https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp');
+  // }
 
-  &.heroNewsAllNews {
-    background-image: url('https://medalliance.com.tw/images/about/news/all_news-hero.webp');
-  }
+  // &.heroNewsAllNews {
+  //   background-image: url('https://medalliance.com.tw/images/about/news/all_news-hero.webp');
+  // }
 
   &.heroNews2022 {
     background-image: url('https://medalliance.com.tw/images/about/news/2022-hero.webp');
