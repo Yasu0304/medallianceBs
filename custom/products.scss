@@ -15,14 +15,14 @@
 //   }
 // }
 
-.heroPic-allProducts {
-  background-image: url('https://medalliance.com.tw/images/product/products-hero.webp');
-  min-height: 200px;
-  @include bg-setting(top, center, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 350px;
-  }
-}
+// .heroPic-allProducts {
+//   background-image: url('https://medalliance.com.tw/images/product/products-hero.webp');
+//   min-height: 200px;
+//   @include bg-setting(top, center, cover, no-repeat, scroll);
+//   @include sm {
+//     min-height: 350px;
+//   }
+// }
 
 //productsPage
 .productsTab {

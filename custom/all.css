@@ -229,33 +229,4 @@ p,
 }
 .heroPic60.heroIndex {
   background-image: url("https://medalliance.com.tw/images/hero.webp");
-}
-
-.heroPicCenter {
-  min-height: 200px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  overflow: hidden;
-}
-@media (min-width: 576px) {
-  .heroPicCenter {
-    min-height: 350px;
-  }
-}
-.heroPicCenter.heroNews2022 {
-  background-image: url("https://medalliance.com.tw/images/about/news/2022-hero.webp");
-}
-.heroPicCenter.heroNews2023 {
-  background-image: url("https://medalliance.com.tw/images/about/news/2023-hero.webp");
-}
-.heroPicCenter.heroContact {
-  background-image: url("https://medalliance.com.tw/images/contact.webp");
-}
-.heroPicCenter.heroExportProducts {
-  background-image: url("https://medalliance.com.tw/images/services/export_products-hero.webp");
-}
-.heroPicCenter.heroGlobalMarket {
-  background-image: url("https://medalliance.com.tw/images/services/global_market_expansion_advisory-hero.webp");
 }/*# sourceMappingURL=all.css.map */
