@@ -229,4 +229,16 @@ p,
 }
 .heroPic60.heroIndex {
   background-image: url("https://medalliance.com.tw/images/hero.webp");
+}
+
+.contactCard-web {
+  background-image: url("https://medalliance.com.tw/images/medalliance-col.svg");
+  padding-top: 59.36%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
 }/*# sourceMappingURL=all.css.map */
